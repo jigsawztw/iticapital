@@ -7,9 +7,9 @@
        default-autowire = "byName">
 
     <bean id = "winiumDriverConfiguration" class = "com.aplana.chameleon.selenium.driver.configuration.DefaultDriverConfiguration">
-        <property name = "driverPath" value = "example-winium\drivers\Winium.Desktop.Driver.exe"/>
+        <property name = "driverPath" value = "iticapital\drivers\Winium.Desktop.Driver.exe"/>
         <property name = "implicitlyWait" value = "60"/>
-        <property name = "applicationUrl" value = "example-winium\apps\Aero Calculator MMXI.exe"/>
+        <property name = "applicationUrl" value = "iticapital\apps\SmartX.exe"/>
         <property name = "connectToRunningApp" value = "false"/>
         <property name = "driverType">
             <value type = "com.aplana.chameleon.selenium.driver.SupportedDriver">WINIUM</value>
