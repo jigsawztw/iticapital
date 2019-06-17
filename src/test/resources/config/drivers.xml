@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-lazy-init = "true"
+       default-autowire = "byName">
+
+    <bean id = "winiumDriverConfiguration" class = "com.aplana.chameleon.selenium.driver.configuration.DefaultDriverConfiguration">
+        <property name = "driverPath" value = "example-winium\drivers\Winium.Desktop.Driver.exe"/>
+        <property name = "implicitlyWait" value = "60"/>
+        <property name = "applicationUrl" value = "example-winium\apps\Aero Calculator MMXI.exe"/>
+        <property name = "connectToRunningApp" value = "false"/>
+        <property name = "driverType">
+            <value type = "com.aplana.chameleon.selenium.driver.SupportedDriver">WINIUM</value>
+        </property>
+    </bean>
+
+    <bean id = "Winium" class = "com.aplana.chameleon.selenium.driver.WebDriverFacade" destroy-method="quit">
+        <property name = "defaultDriver" value = "true"/>
+        <property name = "driverFactory">
+            <bean class = "com.aplana.chameleon.selenium.driver.WiniumDriverFactory">
+                <constructor-arg ref = "winiumDriverConfiguration"/>
+            </bean>
+        </property>
+    </bean>
+
+</beans>

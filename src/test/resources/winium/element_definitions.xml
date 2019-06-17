@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../XMLSchema/base/winium_element_rules.xsd">
+    <Page name="Калькулятор" locator="/*[@AutomationId='mainWindow' and @Name='Calculator']">
+        <WinTextBox name="Заголовок" locator="./*[@AutomationId='TitleBar' and @Name='Calculator']" isLoaded="true"/>
+        <WinButton name="Кнопка" locator="./*[@ClassName='Button' and @Name='#{текст}']"/>
+        <WinTextBox name="Табло" locator="./*[@AutomationId='tb1']"/>
+    </Page>
+</Pages>

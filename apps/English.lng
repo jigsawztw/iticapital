@@ -1,0 +1,1489 @@
+<?xml version="1.0"?>
+<LangInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LangId="1" Culture="en-US" DisplayName="English">
+  <Items>
+    <DicItem Russian="Выход" Foreign="Close SMARTx" />
+    <DicItem Russian="Выход " Foreign="Exit " />
+
+    <DicItem Russian="Английский" Foreign="Eng" />
+    <DicItem Russian="О " Foreign="About" />
+    <DicItem Russian="Да" Foreign="Yes" />
+    <DicItem Russian="OK" Foreign="ОК" />
+    <DicItem Russian="Прервать" Foreign="Abort" />
+    <DicItem Russian="Отмена" Foreign="Cancel" />
+    <DicItem Russian="Игонрировать" Foreign="Ignore" />
+    <DicItem Russian="Нет" Foreign="No" />
+    <DicItem Russian="Повторить" Foreign="Retry" />
+    <DicItem Russian="Тип сделки" Foreign="Type" />
+    <DicItem Russian="Обычная"  Foreign="Ordinary" />
+    <DicItem Russian="Отмененная" Foreign="Canceled" />
+    <DicItem Russian="Корректирующая" Foreign="Corrected" />
+    <DicItem Russian="Отмененная сделка" Foreign="Canceled deal number" />
+    <DicItem Russian="Номер сделки, которая отменила текущая сделка" Foreign="The deal number, which has canceled current deal" />
+    <DicItem Russian="Превышен лимит значения поля" Foreign="Overlimit value!" />
+    <DicItem Russian="Соединение установлено. Загружено {0} инструментов" Foreign="The connection is established. Uploaded {0} tickers" />
+    <DicItem Russian="Внимание" Foreign="Attention" />
+    <DicItem Russian="Внимание!" Foreign="Attention!" />
+    <DicItem Russian="Поднять окно {0} и вывести сообщение о срабатывании Alert" Foreign="Pop-up {0} and show an Alert message" />
+    <DicItem Russian="Поднять окно SMARTx и вывести сообщение о срабатывании Alert" Foreign="Pop-up SMARTx and show an Alert message" />
+    <DicItem Russian="Несовпадение типов: Тип для сериализации - {0}, а тип сериализуемого объекта - {1}!" Foreign="Type mismatch: type for serialization - {0}, and the type of object to serialize - {1}!" />
+    <DicItem Russian="Продолжить?" Foreign="Continue?" />
+    <DicItem Russian=".&#13;Продолжить?" Foreign=".&#13;Continue?" />
+    <DicItem Russian=".&#10;Продолжить?" Foreign=".&#10;Continue?" />
+    <DicItem Russian=".&#13;&#10;Продолжить?" Foreign=".&#13;&#10;Continue?" />
+    <DicItem Russian="Отменить заявку " Foreign="Cancel Order No." />
+    <DicItem Russian="по рынку приказ MARKET" Foreign="MARKET order" />
+    <DicItem Russian="по рынку приказ IQ MARKET" Foreign="IQ order by MARKET" />
+    <DicItem Russian="КУПИТЬ" Foreign="BUY" />
+    <DicItem Russian="Купить" Foreign="BUY" />
+    <DicItem Russian="ПРОДАТЬ" Foreign="SELL" />
+    <DicItem Russian="ЭКСПИРАЦИЮ" Foreign="EXPIRATION" />
+    <DicItem Russian="ПОКУПКУ" Foreign="BUY" />
+    <DicItem Russian="ПРОДАЖУ" Foreign="SELL" />
+    <DicItem Russian="Трейл.(шаг)" Foreign="Trail.(step)" />
+    <DicItem Russian="заявка будет снята" Foreign="order will be cancelled" />
+    <DicItem Russian="заявка снята пользователем" Foreign="order has been cancelled by user" />
+    <DicItem Russian="Отмененные заявки отображаться не будут, поскольку в конфигурации установлен флаг DO_NOT_CACHE_CANCELED_ORDERS" Foreign="Cancelled requests will not be visible because DO_NOT_CACHE_CANCELED_ORDERS flag is set" />
+    <DicItem Russian="Отмененные и отклоненные заявки не будут запрошены с сервера, поскольку в конфигурации установлен флаг DO_NOT_REQUEST_ORDERS_HISTORY" Foreign="Cancelled and rejected requests will not be visible because DO_NOT_REQUEST_ORDERS_HISTORY flag is set" />
+    <DicItem Russian="Загрузка справочников будет производиться не с сервера, а из локального кеша, поскольку в конфигурации установлен флаг USE_LOCAL_SYMBOL_CACHE" Foreign="The download of instruction manuals will be done from local cache and NOT from the server because USE_LOCAL_SYMBOL_CACHE flag is set" />
+    <DicItem Russian="Не удалось получить список инструментов. Соединение будет разорвано" Foreign="Failed to get the list of trading Instruments. Connection will be terminated" />
+    <DicItem Russian="Не удалось получить список портфелей. Соединение будет разорвано" Foreign="Failed to get the list of Portfolios. Connection will be terminated" />
+    <DicItem Russian="Ошибка соединения: {0:D} {1}" Foreign="Connection error: {0:D} {1}" />
+    <DicItem Russian="Адрес сервера не должен быть пустым" Foreign="The server address can not be empty" />
+    <DicItem Russian="Имя пользователя не должно быть пустым" Foreign="The user name  can not be empty" />
+    <DicItem Russian="Пароль не должен быть пустым" Foreign="The password  can not be empty" />
+    <DicItem Russian="Невозможно подписаться на портфель [{0}]" Foreign="Unable to subscribe to Portfolio [{0}]" />
+    <DicItem Russian="Невозможно подписаться на портфель" Foreign="Unable to subscribe to Portfolio" />
+    <DicItem Russian="Неверно указан тип приказа" Foreign="Incorrect order type" />
+    <DicItem Russian="Неверно указант тип приказа" Foreign="Incorrect order type" />
+    <DicItem Russian="Данный приказ не может быть передан на сервер брокера, поскольку он относится к несуществующему счету!" Foreign="This order can not be passed onto the Broker's server, since it relates to a non-existing account!" />
+    <DicItem Russian="Открытие новых позиций невозможно, т.к. превышен максимальный убыток по счету." Foreign="Opening of the new positions is impossible as the maximum possible Value of Loss has been exceeded on the account." />
+    <DicItem Russian="Объем заявки превышает максимально разрешенный объем заявки." Foreign="The volume of Order exceeds the maximum allowed volume as per current risk-management settings." />
+    <DicItem Russian="Ввод этой заявки может привести к превышению максимально допустимой открытой позиции" Foreign="This order entry may result in excess of maximum allowed open position vakue (limit) as per current risk-management settings." />
+    <DicItem Russian="Соединение" Foreign="Connection" />
+    <DicItem Russian="Состояние серверов" Foreign="Servers state" />
+    <DicItem Russian="Условие '" Foreign="Condition '" />
+    <DicItem Russian="' выполнено для инструмента '" Foreign="' is fulfilled for this trading instrument '" />
+    <DicItem Russian="Неверный ввод параметра" Foreign="Invalid input of parameter" />
+    <DicItem Russian="Не найден инструмент '" Foreign="The Ticker is not found: '" />
+    <DicItem Russian="Не найдены котировки по инструменту '" Foreign="Quotes for this Ticker are not found: '" />
+    <DicItem Russian="Портфель '" Foreign="Portfolio '" />
+    <DicItem Russian="' входит в состав ЕДП, но принадлежит к площадке Стандард" Foreign="' is included into the Single Cash Position (SCP), but belongs to Standard trading section" />
+    <DicItem Russian="Проскальзывание не кратно минимальному шагу цены!" Foreign="Slippage value is not a multiple to the tick size!" />
+    <DicItem Russian="Тейк-профит не кратен минимальному шагу цены!" Foreign="Take-profit value is not a multiple to the tick size!" />
+    <DicItem Russian="Авто-стоп не кратен минимальному шагу цены!" Foreign="Auto-stop value is not a multiple to the tick size!" />
+    <DicItem Russian="Трейл-стоп не кратен минимальному шагу цены!" Foreign="Trailing-stop value is not a multiple to the tick size!" />
+    <DicItem Russian="Трейл-стоп не может быть меньше 20 минимальных шагов цены!" Foreign="Trailing-stop can not be less than 20 tick sizes!" />
+    <DicItem Russian="График должен быть загружен!" Foreign="The chart should be uploaded!" />
+    <DicItem Russian="Ошибка" Foreign="Error" />
+    <DicItem Russian="Ошибка в экспорте графика: '" Foreign="Error in the export of the chart: '" />
+    <DicItem Russian="Менеджер" Foreign="Manager" />
+    <DicItem Russian="Свойства" Foreign="Properties" />
+    <DicItem Russian="Таймфрейм" Foreign="Timeframe" />
+    <DicItem Russian="Индикаторы" Foreign="Indicators" />
+    <DicItem Russian="Объекты" Foreign="Tools" />
+    <DicItem Russian="Range-бары" Foreign="Range-bars" />
+    <DicItem Russian="Volume-бары" Foreign="Volume-bars" />
+    <DicItem Russian="Сохранить заготовку" Foreign="Save template" />
+    <DicItem Russian="Загрузить заготовку" Foreign="Load template" />
+    <DicItem Russian="Автомасштаб по Y" Foreign="Autoscale by Y" />
+    <DicItem Russian="Панель управления" Foreign="Control panel" />
+    <DicItem Russian="Панель фильтров" Foreign="Filters panel" />	
+    <DicItem Russian="Очистить фильтры" Foreign="Clear Filters" />
+    <DicItem Russian="Индикатор" Foreign="Indicators" />
+    <DicItem Russian="Линия тренда" Foreign="Trend line" />
+    <DicItem Russian="Горизонтальная линия" Foreign="Horizontal line" />
+    <DicItem Russian="Вертикальная линия" Foreign="Vertical line" />
+    <DicItem Russian="Ценовой канал" Foreign="Price channel" />
+    <DicItem Russian="Коррекция Фибоначчи" Foreign="Fibonacchi correction" />
+    <DicItem Russian="Дуги Фибоначчи" Foreign="Fibonacci Arcs" />
+    <DicItem Russian="Веер Фибоначчи" Foreign="Fibonacci Fans" />
+    <DicItem Russian="Расширение Фибоначчи" Foreign="Fibonacchi extension" />
+    <DicItem Russian="Временные зоны Фибоначчи" Foreign="Fibonacci Time Extensions" />
+    <DicItem Russian="Прямоугольник" Foreign="Rectangle" />
+    <DicItem Russian="Текст" Foreign="Text" />
+    <DicItem Russian="Серия вертикальных линий" Foreign="Series of vertical lines" />
+    <DicItem Russian="Скопировать выделенный объект" Foreign="Copy the selected object" />
+    <DicItem Russian="В конец графика" Foreign="Into end of chart" />
+    <DicItem Russian="Свойства графика" Foreign="Chart properties" />
+    <DicItem Russian="Экспорт в Excel" Foreign="Export to Excel" />
+    <DicItem Russian="Выгрузить один раз и остановить" Foreign="Export of data and stop" />
+    <DicItem Russian="Распечатать" Foreign="Print" />
+    <DicItem Russian="Тип графика - свечи" Foreign="Chart type - Candles" />
+    <DicItem Russian="Тип графика - бары" Foreign="Chart type - Bars" />
+    <DicItem Russian="Тип графика - линия" Foreign="Chart type - Line" />
+    <DicItem Russian="Тип графика - Свечи" Foreign="Chart type - Candles" />
+    <DicItem Russian="Тип графика - Бары" Foreign="Chart type - Bars" />
+    <DicItem Russian="Тип графика - Линия" Foreign="Chart type - Lines" />
+    <DicItem Russian="Показать/скрыть перекрестье" Foreign="Show/hide crosshairs" />
+    <DicItem Russian="Уменьшить толщину бара" Foreign="Decrease bar thickness" />
+    <DicItem Russian="Увеличить толщину бара" Foreign="Increase bar thickness" />
+    <DicItem Russian="Увеличить масштаб по горизонтали" Foreign="Increase horizontal scale" />
+    <DicItem Russian="Уменьшить масштаб по горизонтали" Foreign="Decrease horizontal scale" />
+    <DicItem Russian="Увеличить масштаб по вертикали" Foreign="Increase vertical scale" />
+    <DicItem Russian="Уменьшить масштаб по вертикали" Foreign="Decrease vertical scale" />
+    <DicItem Russian="Автомасштаб по вертикали" Foreign="Vertical autoscale" />
+    <DicItem Russian="Сдвинуть график влево" Foreign="Move chart to the right" />
+    <DicItem Russian="Сдвинуть график вправо" Foreign="Move chart to the left" />
+    <DicItem Russian="График" Foreign="Chart" />
+    <DicItem Russian="Стиль графика" Foreign="Chart style" />
+    <DicItem Russian="Толщина баров" Foreign="Bars thickness" />
+    <DicItem Russian="Масштаб" Foreign="Scale" />
+    <DicItem Russian="Сдвиг графика" Foreign="Shift chart" />
+    <DicItem Russian="Линии Фибоначчи" Foreign="Fibbonacchi lines" />
+    <DicItem Russian="Техническая служба" Foreign="IT Technical support" />
+    <DicItem Russian="Клиентская группа" Foreign="Client Service" />
+    <DicItem Russian="Отдел внутреннего учета" Foreign="Operations Department" />
+    <DicItem Russian="Отдел брокерских операций" Foreign="Trading Support" />
+    <DicItem Russian="Контролер компании" Foreign="Compliance officer" />
+    <DicItem Russian="Оповещения" Foreign="Notifications" />
+    <DicItem Russian="Логи и события" Foreign="Logs and Events" />
+    <DicItem Russian="&#09;&#09;&#09;Нажмите сюда, чтобы загрузить более ранние новости" Foreign="&#09;&#09;&#09;Press HERE to download previous news" />
+    <DicItem Russian="&#09;&#09;&#09;Загружаю..." Foreign="&#09;&#09;&#09;Loading..." />
+    <DicItem Russian="Новости" Foreign="News" />
+    <DicItem Russian="Подробнее на сайте" Foreign="Read more on website" />
+    <DicItem Russian="Удалить" Foreign="Delete" />
+    <DicItem Russian="Удален" Foreign="Deleted" />
+    <DicItem Russian="Недоступен" Foreign="Not available" />
+    <DicItem Russian="Обновить" Foreign="Refresh" />
+    <DicItem Russian="Установить" Foreign="Install" />
+    <DicItem Russian="Установлен" Foreign="Installed" />
+    <DicItem Russian="Устанавливаю" Foreign="Installing… Please wait" />
+    <DicItem Russian="Подтвердите удаление" Foreign="Do You Confirm removal?" />
+    <DicItem Russian="Расширение '" Foreign="Plugin '" />
+    <DicItem Russian="' успешно удалено!'" Foreign="removed successfully!'" />
+    <DicItem Russian="Удаление расширения" Foreign="Plugin removal" />
+    <DicItem Russian="' не было установлено!" Foreign="' not installed!" />
+    <DicItem Russian="' успешно установлено и доступно в меню 'Расширения'!" Foreign="' installed successfully and available in 'Plugins' menu!" />
+    <DicItem Russian="Установка расширения" Foreign="Installing Plugin..." />
+    <DicItem Russian="&lt;БЕЗ ИМЕНИ&gt;" Foreign="&lt;NONAME&gt;" />
+    <DicItem Russian="Описание данного расширения отсутствует" Foreign="The description of this Plugin is missing" />
+    <DicItem Russian="Ни один Ваш субсчет не позволяет Вам совершать операции по инструменту {0}!" Foreign="None of your sub-accounts allow you to trade - {0}!" />
+    <DicItem Russian="Экспирация недоступна" Foreign="Expiration is unavailable" />
+    <DicItem Russian="имеет тип '" Foreign="of type" />
+    <DicItem Russian="Заявки этого типа не могут перемещаться" Foreign="Orders of this type can not be moved" />    
+    <DicItem Russian="Настройки тейк-профит для выбранной позиции не найдены!" Foreign="Take-profit parameters are not found for this Ticker in risk-management settings!" />
+    <DicItem Russian="Настройки стоп-лосс для выбранной позиции не найдены!" Foreign="Stop-loss parameters are not found for this Ticker in risk-management settings!" />
+    <DicItem Russian="Настройки риск-менеджмента для выбранной позиции не найдены!" Foreign="Risk-management settings are not found for the selected Ticker!" />
+    <DicItem Russian="Вы должны выставить правильный квант объема!" Foreign="The correct quantum of trade volume should be entered!" />
+    <DicItem Russian="Вы должны сначала выбрать инструмент сравнения!" Foreign="You should start by selecting a comparative ticker!" />
+    <DicItem Russian="Вы должны сначала выбрать условие срабатывания!" Foreign="You should start by selecting an execution pre-condition!" />
+    <DicItem Russian="Приказы" Foreign="Orders" />
+    <DicItem Russian="Действия" Foreign="Actions" />
+    <DicItem Russian="IQ-приказ" Foreign="IQ-order" />
+    <DicItem Russian="Упадет" Foreign="Decrease" />
+    <DicItem Russian="Вырастет" Foreign="Increase" />
+    <DicItem Russian="Условие" Foreign="Condition" />
+    <DicItem Russian="Инструмент сравнения" Foreign="Comparative Ticker" />
+    <DicItem Russian="Связка" Foreign="Linked Orders" />
+    <DicItem Russian="Айсберг" Foreign="Iceberg order " />
+    <DicItem Russian="Для выставления заявки АЙСБЕРГ необходимо указать квант объема, который будет выводиться в очередь заявок" Foreign="In order to set an ICEBERG order please indicate the Quantum size, which will be exposed into the OrderBook" />
+    <DicItem Russian="Квант объема в заявке АЙСБЕРГ" Foreign="ICEBERG order quantum size:" />
+    <DicItem Russian="Экспирац." Foreign="Expiration" />
+    <DicItem Russian="Экспирировать" Foreign="Expire" />
+    <DicItem Russian="Параметры приказа" Foreign="Order parameters" />
+    <DicItem Russian="Инструмент" Foreign="Instrument" />
+    <DicItem Russian="Цена" Foreign="Price" />
+    <DicItem Russian="Цена последней сделки" Foreign="Last" />
+    <DicItem Russian="Кол-во" Foreign="Qty" />
+    <DicItem Russian="Проск." Foreign="Slippage" />
+    <DicItem Russian="Стоп по рынку" Foreign="STOP MKT" />
+    <DicItem Russian="По умолчанию" Foreign="By default" />
+    <DicItem Russian="Отмена заявок" Foreign="Cancel Orders" />
+    <DicItem Russian="Продаж" Foreign="Sell Orders" />
+    <DicItem Russian="Последней" Foreign="Last Order" />
+    <DicItem Russian="Всех" Foreign="All Orders" />
+    <DicItem Russian="Покупок" Foreign="Buy Orders" />
+    <DicItem Russian="Ввод заявки" Foreign="Order Entry" />
+    <DicItem Russian="Умолч" Foreign="Default size" />
+    <DicItem Russian="Разворот" Foreign="Reverse" />
+    <DicItem Russian="Левый  клик - выставить лимит-приказ на продажу" Foreign="Left Click - Enter BUY  LIMIT order" />
+    <DicItem Russian="Правый клик - отменить все активные заявки на продажу" Foreign="Right Click - Cancel ALL  SELL orders" />
+    <DicItem Russian="Продать" Foreign="SELL" />
+    <DicItem Russian="Левый клик - выставить лимитированный приказ на закрытие позиции лучшим в стакане" Foreign="Left Click - Enter LIMIT order to Close position by best Bid/Ask" />
+    <DicItem Russian="Правый клик - закрыть позицию по рынку" Foreign="Right Click - Close position MKT" />
+    <DicItem Russian="Открыть" Foreign="Open" />
+    <DicItem Russian="Закрыть" Foreign="Close" />
+    <DicItem Russian="Левый  клик - выставить лимит-приказ на покупку" Foreign="Left Click - Enter BUY LIMIT order" />
+    <DicItem Russian="Правый клик - отменить все активные заявки на покупку" Foreign="Right Click - Cancel ALL BUY orders" />
+    <DicItem Russian="Левый  клик - отменить последнюю активную заявку" Foreign="Left Click - Cancel Last Order" />
+    <DicItem Russian="Правый клик - отменить все активные заявки" Foreign="Right Click - Cancel ALL Orders" />
+    <DicItem Russian="К-во" Foreign="Qty" />
+    <DicItem Russian="К-во(лоты)" Foreign="Qty (lots)" />
+    <DicItem Russian="К-во(шт)" Foreign="Qty (pcs.)" />	
+    <DicItem Russian="К-во со знаком" Foreign="Qty with sign" />
+    <DicItem Russian="К-во со знаком(шт)" Foreign="Qty with sign (pcs.)" />
+    <DicItem Russian="К-во со знаком(лоты)" Foreign="Qty with sign (lots)" />
+    <DicItem Russian="Название ленты сделок" Foreign="Caption ot the Time`n`Sale window" />	
+    <DicItem Russian="Направление сделки (покупка/продажа)" Foreign="Direction of the trade (Buy/Sel)" />	
+    <DicItem Russian="Количество в сделке" Foreign="Qty in the trade" />	
+    <DicItem Russian="Инструмент в сделке" Foreign="Instrument of trade" />	
+    <DicItem Russian="План. К-во(лоты)" Foreign="Planned Qty (lots)" />
+    <DicItem Russian="План. К-во(шт)" Foreign="Planned Qty (pcs.)" />	
+    <DicItem Russian="План. К-во" Foreign="Planned Qty" />	
+    <DicItem Russian="Цвет оферов" Foreign="Color of Asks" />
+    <DicItem Russian="Вход. К-во(лоты)" Foreign="Starting Qty (lots)" />
+    <DicItem Russian="Вход. К-во(шт)" Foreign="Starting Qty (pcs.)" />	
+    <DicItem Russian="Вход. К-во" Foreign="Starting Qty" />	
+    <DicItem Russian="Входящее количество" Foreign="Starting Qty" />	
+    <DicItem Russian="Цвет бидов" Foreign="Color of Bids" />
+    <DicItem Russian="Сдвиг" Foreign="Shift" />
+    <DicItem Russian="Снимать заявку двойным кликом по уровню цены" Foreign="Cancel Order by Double Click on level of price" />
+    <DicItem Russian="Вертикальный сдвиг" Foreign="Vertical Shift" />
+    <DicItem Russian="Стандартные" Foreign="Set Standard colors" />
+    <DicItem Russian="Ошибка при сохранении рабочего простанства!" Foreign="An error occurred while saving the Workspace!" />
+    <DicItem Russian="Рабочее пространство не было сохранено из-за ошибки." Foreign="Workspace was NOT saved due to an error!" />
+    <DicItem Russian="Отсутствуют окна" Foreign="Windows are missing" />
+    <DicItem Russian="Тип" Foreign="Type" />
+    <DicItem Russian="Применить к" Foreign="Apply to" />
+    <DicItem Russian="Толщина" Foreign="Width" />
+    <DicItem Russian="Толщина линии индикатора" Foreign="Width of indicator line" />
+    <DicItem Russian="Стиль линии" Foreign="Line Style" />
+    <DicItem Russian="Стиль линии индикатора" Foreign="Indicator line style" />
+    <DicItem Russian="много фигур" Foreign="many figures" />
+    <DicItem Russian="Перекрестье" Foreign="Crosshairs" />
+    <DicItem Russian="Торговля" Foreign="Trading" />
+    <DicItem Russian="Бид и Аск" Foreign="Bid and Ask" />
+    <DicItem Russian="Текущая цена" Foreign="Current Price (Last Price)" />
+    <DicItem Russian="Открытая позиция клиента" Foreign="Open Position" />
+    <DicItem Russian="Перемещение активных заявок во внеторговый период запрещено!" Foreign="Order moves are not allowed during out of trading session working hours!" />
+    <DicItem Russian="Разделители сессий" Foreign="Trading Sessions break line" />
+    <DicItem Russian="Сделки клиента" Foreign="Trades" />
+    <DicItem Russian="Быстрый период" Foreign="Fast period" />
+    <DicItem Russian="Медленный период" Foreign="Slow period" />
+    <DicItem Russian="Период сглаживания" Foreign="Smoothing period" />
+    <DicItem Russian="Цвет" Foreign="Color" />
+    <DicItem Russian="Цвет DX" Foreign="DX color" />
+    <DicItem Russian="Быстрая МА" Foreign="Fast MA" />
+    <DicItem Russian="Медленная МА" Foreign="Slow MA" />
+    <DicItem Russian="Период" Foreign="Period" />
+    <DicItem Russian="Период " Foreign="Period" />
+    <DicItem Russian="Отклонение" Foreign="Deviation" />
+    <DicItem Russian="Замедление D" Foreign="Deceleration D" />
+    <DicItem Russian="Цвет Chinkou" Foreign="Chinkou color" />
+    <DicItem Russian="Цвет Kijun" Foreign="Kijun color" />
+    <DicItem Russian="Цвет SpanA" Foreign="SpanA color" />
+    <DicItem Russian="Цвет SpanB" Foreign="SpanB color" />
+    <DicItem Russian="Цвет Tenkan" Foreign="Tenkan color" />
+    <DicItem Russian="Замедление K" Foreign="Deceleration K" />
+    <DicItem Russian="Сглаживание" Foreign="Smoothing" />
+    <DicItem Russian="Цвет -DI" Foreign="DI color" />
+    <DicItem Russian="Шаг" Foreign="Step" />
+    <DicItem Russian="Максимум" Foreign="Maximum" />
+    <DicItem Russian="Цвет +DI" Foreign="+DI color" />
+    <DicItem Russian="Сигнальная МА" Foreign="Signalling MA" />
+    <DicItem Russian="Цвет нижнего" Foreign="Lower color" />
+    <DicItem Russian="Цвет верхнего" Foreign="Upper color" />
+    <DicItem Russian="Час" Foreign="Hour" />
+    <DicItem Russian="Минута" Foreign="Minute" />
+    <DicItem Russian="Интервал (минута)" Foreign="Interval (minute)" />
+    <DicItem Russian="День недели" Foreign="Day" />
+    <DicItem Russian="Таймфрейм должен содержать калькулятор!" Foreign="Timeframe should contain calculating module!" />
+    <DicItem Russian="&amp;Добавить" Foreign="&amp;Add" />
+    <DicItem Russian="Добавить соединение" Foreign="Add connection" />
+    <DicItem Russian="Удалить соединение" Foreign="Delete connection" />
+    <DicItem Russian="Все" Foreign="All" />
+    <DicItem Russian="Ожидающие" Foreign="Pending" />
+    <DicItem Russian="Исполненные" Foreign="Filled" />
+    <DicItem Russian="Добавить Alert" Foreign="Add Alert" />
+    <DicItem Russian="Показать Alert" Foreign="Show Alert" />
+    <DicItem Russian="Удалить Alert" Foreign="Delete Alert" />
+    <DicItem Russian="Алерты" Foreign="Alerts" />
+    <DicItem Russian="Изменить Alert" Foreign="Change Alert" />
+    <DicItem Russian="Изменить выбранный Alert?" Foreign="Change selected Alert?" />
+    <DicItem Russian="Удалить выбранный Alert из системы?" Foreign="Delete selected Alert?" />
+    <DicItem Russian="Вопрос" Foreign="Question" />
+    <DicItem Russian="Ожидает" Foreign="Pending" />
+    <DicItem Russian="Исполнен" Foreign="Filled" />
+    <DicItem Russian="Сработал" Foreign="Executed" />
+    <DicItem Russian="Отменен" Foreign="Cancelled" />
+    <DicItem Russian="Устарел" Foreign="Expired" />
+    <DicItem Russian="Статус" Foreign="Status" />
+    <DicItem Russian="Создан" Foreign="Opened" />
+    <DicItem Russian="Значение срабатывания" Foreign="Fill price" />
+    <DicItem Russian="Глубина стакана" Foreign="OrderBook depth" />
+    <DicItem Russian="Цвета стакана" Foreign="OrderBook color" />
+    <DicItem Russian="Обратный порядок" Foreign="Reverse order" />
+    <DicItem Russian="Переместить заявку № {0} по портфелю {1} с {2} на {3}?" Foreign="Move order № {0}  to Portfolio {1}, {2} or {3}?" />
+    <DicItem Russian="Есть вопрос!" Foreign="Question!" />
+    <DicItem Russian="Отменить заявки" Foreign="Cancel orders" />    
+    <DicItem Russian="Суммарное к-во " Foreign="Total Qty" />
+    <DicItem Russian="Суммарное количество" Foreign="Total Qty" />
+    <DicItem Russian="Доходность (для облигаций)" Foreign="Yield (for Bonds)" />
+    <DicItem Russian="Дох." Foreign="Yield" />
+    <DicItem Russian="Очередь заявок" Foreign="OrderBook" />
+    <DicItem Russian="Книга1" Foreign="Sheet1" />
+    <DicItem Russian="Время сервера" Foreign="Server time" />
+    <DicItem Russian="Передано" Foreign="Transferred" />
+    <DicItem Russian="Принято" Foreign="Accepted" />
+    <DicItem Russian="Открыть стакан" Foreign="Open OrderBook" />
+    <DicItem Russian="Открыть график" Foreign="Open Chart" />
+    <DicItem Russian="Открыть все сделки" Foreign="Open Time'n'Sales" />
+    <DicItem Russian="Добавить в Риск-менеджмент" Foreign="Add to Risk-management" />
+    <DicItem Russian="Удалить инструмент" Foreign="Delete Ticker" />
+    <DicItem Russian="Котировки" Foreign="Quotes" />
+    <DicItem Russian="Время" Foreign="Time" />
+    <DicItem Russian="Тикер" Foreign="Symbol" />
+    <DicItem Russian="Тикер " Foreign="Symbol " />
+
+    <DicItem Russian="Крат. Наименование" Foreign="Short Name" />
+    <DicItem Russian="Крат. наименование" Foreign="Short Name" />
+    <DicItem Russian="Крат.наименование" Foreign="Short Name" />
+
+    <DicItem Russian="Код инструмента" Foreign="Instrument Code" />
+    <DicItem Russian="Открытие" Foreign="Open" />
+    <DicItem Russian="Минимум" Foreign="Minimum" />
+    <DicItem Russian="Закрытие" Foreign="Prev.Close" />
+    <DicItem Russian="Цена посл." Foreign="Last" />
+    <DicItem Russian="Объем посл." Foreign="Last Volume" />
+    <DicItem Russian="Спрос" Foreign="Bid" />
+    <DicItem Russian="Размер спроса" Foreign="Bid Volume" />
+    <DicItem Russian="Предложение" Foreign="Offer" />
+    <DicItem Russian="Размер предложения" Foreign="Offer volume" />
+    <DicItem Russian="Оборот" Foreign="Turnover" />
+    <DicItem Russian="Объем" Foreign="Volume" />
+    <DicItem Russian="Открытый интерес" Foreign="Open Interest" />
+    <DicItem Russian="Объем покупок" Foreign="Buy Volume" />
+    <DicItem Russian="Объем продаж" Foreign="Sell Volume" />
+    <DicItem Russian="Биржа" Foreign="Exchange" />
+    <DicItem Russian="Тип инструмента" Foreign="Type" />
+    <DicItem Russian="Комментарий" Foreign="Comment" />
+    <DicItem Russian="ГО покупателя" Foreign="Buyer Initial Margin" />
+    <DicItem Russian="ГО продавца" Foreign="Seller Initial Margin" />
+    <DicItem Russian="Верхний лимит цены" Foreign="Upper Price limit" />
+    <DicItem Russian="Нижний лимит цены" Foreign="Lower Price limit" />
+    <DicItem Russian="Размер лота" Foreign="Lot size" />
+    <DicItem Russian="Шаг цены" Foreign="Minimum Tick" />
+    <DicItem Russian="Стоимость шага цены" Foreign="Minimum Tick Value" />
+    <DicItem Russian="Изменение" Foreign="Net Change" />
+    <DicItem Russian="Изменение %" Foreign="% Change" />
+    <DicItem Russian="НКД" Foreign="ACI" />
+    <DicItem Russian="Купон" Foreign="Coupon" />
+    <DicItem Russian="Купонный период" Foreign="Coupon period" />
+    <DicItem Russian="Дата купона" Foreign="Coupon date" />
+    <DicItem Russian="Цена оферты" Foreign="Buyback Price" />
+    <DicItem Russian="Дата оферты" Foreign="Buyback Date" />
+    <DicItem Russian="Номинал" Foreign="Face Value" />
+    <DicItem Russian="Доходность" Foreign="Yield to Maturity" />
+    <DicItem Russian="Дата истечения/погашения" Foreign="Expiration date" />
+    <DicItem Russian="Страйк" Foreign="Strike" />
+    <DicItem Russian="Не торгуется" Foreign="Non-tradable" />
+    <DicItem Russian="Торгуется" Foreign="Trading" />
+    <DicItem Russian="' запрещен!" Foreign=" is not allowed!" />
+    <DicItem Russian="Инструмент с кодом '" Foreign="Ticker with the code ' " />
+    <DicItem Russian="' в торговой системе не найден!" Foreign=" is not found in Trading System!" />
+    <DicItem Russian="Инструменты с кодами'" Foreign="Tickers with codes' " />
+    <DicItem Russian="Инструменты с кодами '" Foreign="Tickers with codes' " />
+    <DicItem Russian="в торговой системе не найдены!" Foreign=" are not found in Trading System!" />
+    <DicItem Russian="' в торговой системе не найдены!" Foreign=" are not found in Trading System!" />
+    <DicItem Russian="&#13;&#10;в торговой системе не найдены!" Foreign="&#13;&#10; are not found in Trading System!" />
+    <DicItem Russian="Изменить порядок" Foreign="Change location" />
+    <DicItem Russian="Стакан" Foreign="OrderBook" />
+    <DicItem Russian="Состояние счета" Foreign="Portfolios" />
+    <DicItem Russian="Заявки {0}" Foreign="Orders {0}" />
+    <DicItem Russian="Сделки {0}" Foreign="Trades {0}" />
+    <DicItem Russian="Открытые позиции {0}" Foreign="Positions {0}" />
+    <DicItem Russian="Закрытые позиции {0}" Foreign="Closed Positions {0}" />
+    <DicItem Russian="Портфель" Foreign="Portfolio" />
+    <DicItem Russian="Ликвидационная стоимость" Foreign="Liquidation Value" />
+    <DicItem Russian="Доступные" Foreign="Equity excess" />
+    <DicItem Russian="УМ (УД)" Foreign="ML (Margin level)" />
+    <DicItem Russian="В.О." Foreign="Assets Value" />
+    <DicItem Russian="В.М." Foreign="V.M." />
+    <DicItem Russian="Займ" Foreign="Credit" />
+    <DicItem Russian="Заявок" Foreign="Active Orders" />
+    <DicItem Russian="Лонг" Foreign="Long" />
+    <DicItem Russian="Шорт" Foreign="Short" />
+    <DicItem Russian="Плановый лонг" Foreign="Planned Long" />
+    <DicItem Russian="Плановый шорт" Foreign="Planned Short" />
+    <DicItem Russian="Плановые ДС" Foreign="Planned Cash" />
+    <DicItem Russian="Плановый займ" Foreign="Planned Margin" />
+    <DicItem Russian="Начальная маржа (ГО)" Foreign="Initial Margin" />
+    <DicItem Russian="Минимальная маржа" Foreign="Minimal Margin" />
+    <DicItem Russian="Собственные средства" Foreign="Cash" />
+    <DicItem Russian="Реализованый P&amp;L" Foreign="Realized P&amp;L" />
+    <DicItem Russian="Нереализованый P&amp;L" Foreign="Unrealized P&amp;L" />
+    <DicItem Russian="Биржевой сбор" Foreign="Exchange fee" />
+    <DicItem Russian="Сервер" Foreign="Server" />
+    <DicItem Russian="М+" Foreign="M+" />
+    <DicItem Russian="М-" Foreign="M-" />
+    <DicItem Russian="Ф+" Foreign="F+" />
+    <DicItem Russian="Ф-" Foreign="F-" />
+    <DicItem Russian="Фильтр объема" Foreign="Volume filter" />
+    <DicItem Russian="Фильтр направления" Foreign="Direction filter" />
+    <DicItem Russian="Площадки" Foreign="Sections" />
+    <DicItem Russian="Фильтр по портфелям" Foreign="Filter by Portfolios" />
+    <DicItem Russian="Фильтр по площадкам" Foreign="Filter by Sections" />
+    <DicItem Russian="Фильтр по инструментам" Foreign="Filter By Instruments" />
+    <DicItem Russian="Фильтр по направлению открытой позиции" Foreign="Filter By Side" />
+    <DicItem Russian="Фильтр по направлению заявки" Foreign="Filter By Side" />
+    <DicItem Russian="Фильтр по статусу заявки" Foreign="Filter By Status" />
+    <DicItem Russian="Фильтр по направлению сделки" Foreign="Filter By Side" />
+    <DicItem Russian="Покупки" Foreign="BUYs" />
+    <DicItem Russian="Продажи" Foreign="SELLs" />
+    <DicItem Russian="Напр." Foreign="Dir." />
+    <DicItem Russian="Лента сделок" Foreign="Time'n'Sales" />
+    <DicItem Russian="Настройка столбцов" Foreign="Column settings" />
+    <DicItem Russian="Сохранить шаблон" Foreign="Save template" />
+    <DicItem Russian="Загрузить шаблон" Foreign="Load template" />
+    <DicItem Russian="Динамический экспорт" Foreign="Export to Excel" />
+    <DicItem Russian=": Экспорт будет прекращен из-за закрытия книги" Foreign="Export will be terminated due to a file closure." />
+    <DicItem Russian=": Ошибка при работе с Excel! Экспорт будет прекращен." Foreign="An error occurred in Excel! Export will be terminated." />
+    <DicItem Russian="Лист1" Foreign="Page1" />
+    <DicItem Russian="Неверно указан путь к файлу!" Foreign="Wrong path to the file!" />
+    <DicItem Russian="Ошибка экспорта" Foreign="Export error" />
+    <DicItem Russian="Нельзя использовать метод 'SwapRows' пока таблица отсортирована" Foreign="Cannot execute SwapRows method when filter is applied  to the table" />
+    <DicItem Russian="Нельзя использовать метод 'ReplaceRow' пока таблица отсортирована" Foreign="Cannot execute ReplaceRow method when filter is applied  to the table" />
+    <DicItem Russian="Нельзя использовать метод 'RemoveRow2' пока таблица отсортирована" Foreign="Cannot execute RemoveRow2 method when filter is applied  to the table" />
+    <DicItem Russian="Нельзя использовать метод 'RemoveRows' пока таблица отсортирована" Foreign="Cannot execute RemoveRows method when filter is applied  to the table" />
+    <DicItem Russian="Не найден портфель [" Foreign="Portfolio not found" />
+    <DicItem Russian="Закрытые позиции" Foreign="Closed Positions" />
+    <DicItem Russian="Количество" Foreign="Quantity" />
+    <DicItem Russian="Количество шт.(лотов)" Foreign="Quantity (lots)" />
+    <DicItem Russian="Количество шт.(штук)" Foreign="Quantity (pcs.)" />	
+    <DicItem Russian="Количество шт. (лотов)" Foreign="Quantity (lots)" />
+    <DicItem Russian="Количество шт. (штук)" Foreign="Quantity (pcs.)" />	
+    <DicItem Russian="Цена Покупки" Foreign="Buy price" />
+    <DicItem Russian="Цена Продажи" Foreign="Sell price" />
+    <DicItem Russian="Прибыль/Убыток" Foreign="PnL" />
+    <DicItem Russian="Прибыль/Убыток, %" Foreign="PnL, %" />
+    <DicItem Russian="Номер сделки на покупку" Foreign="Number BUY-trade" />
+    <DicItem Russian="Номер сделки на продажу" Foreign="Number SELL-trade" />
+    <DicItem Russian="Открытые позиции" Foreign="Open Positions" />
+    <DicItem Russian="Откр. позиции" Foreign="Open Positions" />
+    <DicItem Russian="Закр. позиции" Foreign="Closed Positions" />
+    <DicItem Russian="Откр. позиции: {0}" Foreign="Open Positions: {0}" />
+    <DicItem Russian="Закр. позиции: {0}" Foreign="Closed Positions: {0}" />
+    <DicItem Russian="Все заявки #" Foreign="All orders #" />
+    <DicItem Russian="Все сделки #" Foreign="All trades #" />
+    <DicItem Russian="Все откр. позиции #" Foreign="All open positions #" />
+    <DicItem Russian="Все закр. позиции #" Foreign="All closed positions #" />
+    <DicItem Russian="Выставить тейк-профит" Foreign="Place TAKE-PROFIT" />
+    <DicItem Russian="Выставить стоп-лосс" Foreign="Place STOP-LOSS" />
+    <DicItem Russian="Закрыть позицию" Foreign="Close Position" />
+    <DicItem Russian="Добавить инструмент в котировки" Foreign="Add Ticker to Quotes" />
+    <DicItem Russian="Защита позиции" Foreign="Position protection" />
+    <DicItem Russian="Защитить позицию" Foreign="Position protection" />
+    <DicItem Russian="Настройки трейлинг-стоп для выбранной позиции не найдены!" Foreign="Trailing-stop parameters are not found. Please set parameters in the Risk-management settings." />
+    <DicItem Russian="План. Количество" Foreign="Planned Quantity" />
+    <DicItem Russian="Направление" Foreign="Side" />
+    <DicItem Russian="Средняя цена" Foreign="Avg. price" />
+    <DicItem Russian="Цена посл. сделки" Foreign="Last price" />
+    <DicItem Russian="Прибыль/Убыток %" Foreign="PnL, %" />
+    <DicItem Russian="Величина" Foreign="Value" />
+    <DicItem Russian="Изменить цену заявки" Foreign="Change Order Price" />
+    <DicItem Russian="Изменить цену заявки " Foreign="Change Order Price " />
+    <DicItem Russian="Изменить цену заявки с " Foreign="Change the price of orders with price " />
+    <DicItem Russian="Изменить стоп-цену заявки с " Foreign="Change the price of stop-orders with price " />
+    <DicItem Russian="Скопировать в окно ввода заявки" Foreign="Copy into Order Entry form" />
+    <DicItem Russian="Фильтр заявок" Foreign="Orders Filter" />
+    <DicItem Russian="Заявки" Foreign="Orders" />
+    <DicItem Russian="заявку" Foreign="Order" />
+    <DicItem Russian="заявки" Foreign="Orders" />
+    <DicItem Russian="заявок" Foreign="Orders" />
+    <DicItem Russian="Сделки" Foreign="Trades" />
+    <DicItem Russian="Заявка отменена пользователем" Foreign="Order has been cancelled by the user" />
+    <DicItem Russian="Причина отмены" Foreign="Cancellation reason" />
+    <DicItem Russian="Двойной клик покажет причину отмены" Foreign="Double-click to see the reason of cancellation" />    
+    <DicItem Russian="Снять заявку №{0}" Foreign="Cancel Order No.{0}" />
+    <DicItem Russian="Снять заявку" Foreign="Cancel Order" />
+    <DicItem Russian="Последнюю" Foreign="Last" />
+    <DicItem Russian="...нечего снимать..." Foreign="… nothing to cancel..." />
+    <DicItem Russian="Баланс" Foreign="Balance" />
+    <DicItem Russian="Баланс(шт)" Foreign="Remain (pcs.)" />
+    <DicItem Russian="Баланс(лоты)" Foreign="Remain (lots)" />
+    <DicItem Russian="Неисполненный остаток шт. (лотов)" Foreign="Remain (lots)" />
+    <DicItem Russian="Неисполненный остаток шт. (шт.)" Foreign="Remain (pcs.)" />
+    <DicItem Russian="Стоп" Foreign="Stop Price" />
+    <DicItem Russian="№ Заявки" Foreign="Order" />
+    <DicItem Russian="№ Приказа" Foreign="ID" />
+    <DicItem Russian="Метка" Foreign="Label" />
+    <DicItem Russian="Подробно" Foreign="Details" />
+    <DicItem Russian="Срок" Foreign="TIF" />
+    <DicItem Russian="Заявки: {0}" Foreign="Orders: {0}" />
+    <DicItem Russian="Номер сделки" Foreign="Trade" />
+    <DicItem Russian="Номер заявки" Foreign="Order" />
+    <DicItem Russian="Сделки: {0}" Foreign="Trades: {0}" />
+    <DicItem Russian="Введенное значение является неверным!" Foreign="Entered value is incorrect!" />
+    <DicItem Russian="Неправильно введено значение" Foreign="The value is entered incorrectly" />
+    <DicItem Russian="Описание отсутствует" Foreign="Description missing" />
+    <DicItem Russian="Отменить закрытие" Foreign="Cancel closure" />
+    <DicItem Russian="Все равно закрыть" Foreign="Close anyway" />
+    <DicItem Russian="Подтвердите закрытие!" Foreign="Please, confirm closure!" />
+    <DicItem Russian="Удалить все" Foreign="Delete ALL" />
+    <DicItem Russian="Отметить все" Foreign="Check ALL" />
+    <DicItem Russian="Снять все" Foreign="Remove ALL" />
+    <DicItem Russian="Выберите из списка" Foreign="Choose from the list:" />
+    <DicItem Russian="Имя пользователя не может быть пустым!" Foreign="Username can not be empty!" />
+    <DicItem Russian="Пароль не может быть пустым!" Foreign="Password can not be empty!" />
+    <DicItem Russian="Адрес сервера не может быть пустым!" Foreign="Server address can not be empty!" />
+    <DicItem Russian="Номер порта не может быть пустым!" Foreign="Server port can not be empty!" />
+    <DicItem Russian="Неправильно введен номер порта!" Foreign="Server port is incorrect!" />
+    <DicItem Russian="Пользователь" Foreign="Username" />
+    <DicItem Russian="Пароль" Foreign="Password" />
+    <DicItem Russian="Порт" Foreign="Port" />
+    <DicItem Russian="Запомнить логин/пароль" Foreign="Remember login/password" />
+    <DicItem Russian="Запомнить пароль" Foreign="Remember password" />
+    <DicItem Russian="Запоминать логин при входе" Foreign="Remember login after connect" />
+    <DicItem Russian="Книга" Foreign="Book" />
+    <DicItem Russian="Лист" Foreign="Page" />
+    <DicItem Russian="Столбец" Foreign="Column" />
+    <DicItem Russian="Строка" Foreign="Row" />
+    <DicItem Russian="Левый верхний угол" Foreign="Start Cell Position" />
+    <DicItem Russian="Заголовки столбцов" Foreign="Column headings" />
+    <DicItem Russian="Пустые ячейки вместо нулей" Foreign="Blank cell instead nulls" />
+    <DicItem Russian="Максимальное количество экспортируемых строк" Foreign="Maximal limit of exported rows" />
+    <DicItem Russian="Динамический экспорт в Excel" Foreign="Export to Excel" />
+    <DicItem Russian="версия {0}.{1} от {2} года" Foreign="Version  {0}.{1} from  {2} " />
+    <DicItem Russian="Новейшая версия" Foreign="Installed the latest version" />
+    <DicItem Russian="Установить обновление" Foreign="Install NEW Version" />
+    <DicItem Russian="ОАО &quot;ИК &quot;Ай Ти Инвест&quot;, © {0}" Foreign="&quot;JSC &quot;Investment Company &quot;ITInvest&quot;, © {0}" />
+    <DicItem Russian="ОАО &quot;ИК &quot;Ай Ти Инвест&quot;" Foreign="&quot;JSC &quot;Investment Company &quot;ITInvest&quot;" />
+    <DicItem Russian="ОАО «ИК «Ай Ти Инвест», © {0}" Foreign="&quot;JSC &quot;Investment Company &quot;ITInvest&quot;, © {0}" />
+    <DicItem Russian="ОАО \&quot;ИК \&quot;Ай Ти Инвест\&quot;" Foreign="&quot;JSC &quot;Investment Company &quot;ITInvest&quot;" />
+    <DicItem Russian="О SMARTx" Foreign="About SMARTx" />
+    <DicItem Russian="Управление расширениями" Foreign="Plugins Control" />    
+    <DicItem Russian="Ошибка обновления" Foreign="Update error" />
+    <DicItem Russian="Обновление" Foreign="Update" />
+    <DicItem Russian="Соединение разорвано" Foreign="Connection is broken" />
+    <DicItem Russian="Сохранить рабочее пространство?" Foreign="Save Workspace?" />
+    <DicItem Russian="Начальная страница" Foreign="Start page" />
+    <DicItem Russian="Файл" Foreign="File" />
+    <DicItem Russian="Новое рабочее пространство" Foreign="New Workspace" />
+    <DicItem Russian="Сохранить рабочее пространство" Foreign="Save Workspace" />
+    <DicItem Russian="Сохранить рабочее пространство как" Foreign="Save Workspace As..." />
+    <DicItem Russian="Загрузить рабочее пространство" Foreign="Load Workspace" />
+    <DicItem Russian="Рабочие пространства" Foreign="Workspaces" />
+    <DicItem Russian="Вид" Foreign="View" />
+    <DicItem Russian="Стиль программы" Foreign="Interface Style" />
+    <DicItem Russian="Панели инструментов" Foreign="Control panels" />
+    <DicItem Russian="Рабочее пространство" Foreign="Workspace panel" />
+    <DicItem Russian="Окна" Foreign="Windows panel" />
+    <DicItem Russian="Графические объекты" Foreign="Tools panel" />
+    <DicItem Russian="Выбор инструмента" Foreign="Ticker panel" />
+    <DicItem Russian="Выбор портфеля" Foreign="Portfolio panel" />
+    <DicItem Russian="Состояние соединения" Foreign="Connection status" />
+    <DicItem Russian="Счет" Foreign="Portfolio" />
+    <DicItem Russian="Новый график" Foreign="New Chart" />
+    <DicItem Russian="Сохранить заготовку графика" Foreign="Save Chart template" />
+    <DicItem Russian="Применить заготовку графика" Foreign="Apply Chart template" />
+    <DicItem Russian="Сохранить график как изображение" Foreign="Save Chart as an image" />
+    <DicItem Russian="Распечатать график" Foreign="Print Chart" />
+    <DicItem Russian="Настройки" Foreign="Settings" />
+    <DicItem Russian="Общие настройки" Foreign="General settings" />
+    <DicItem Russian="Оформление" Foreign="Vizualization" />
+    <DicItem Russian="Риски" Foreign="Risk-Management" />
+    <DicItem Russian="Приказы Стоп/Маркет" Foreign="Stop / Market orders" />
+    <DicItem Russian="Стоп/Маркет" Foreign="Stop/Market" />
+    <DicItem Russian="Торговля по стакану" Foreign="OrderBook" />
+    <DicItem Russian="Горячие клавиши" Foreign="Hotkeys" />
+    <DicItem Russian="Расширения" Foreign="Plugins" />
+    <DicItem Russian="Обновить список" Foreign="Refresh list" />
+    <DicItem Russian="Помощь" Foreign="Help" />
+    <DicItem Russian="Вызов справки" Foreign="User's manual" />
+    <DicItem Russian="Установить соединение" Foreign="Connect" />
+    <DicItem Russian="Разорвать соединение" Foreign="Disconnect" />
+    <DicItem Russian="Выберите сервер" Foreign="Select server" />
+    <DicItem Russian="Свойства Alert" Foreign="Alert properties" />
+    <DicItem Russian="Выберите источник!" Foreign="Select source !" />
+    <DicItem Russian="Выберите условие!" Foreign="Select condition !" />
+    <DicItem Russian="Отсутствует финансовый инструмент! Выполнение операции невозможно!" Foreign="Ticker not found! Execution impossible!" />
+    <DicItem Russian="Отсутствуют счета! Выполнение операции невозможно!" Foreign="Portfolios not found! Execution impossible!" />
+    <DicItem Russian="упадет до " Foreign="will decrease down to " />
+    <DicItem Russian="вырастет до " Foreign="will increase up to " />
+    <DicItem Russian="вырастет до" Foreign="will increase up to" />
+    <DicItem Russian="упадет до" Foreign="will decrease down to" />
+    <DicItem Russian=" упадёт до " Foreign=" fall to " />
+    <DicItem Russian=" вырастет до " Foreign=" grow up " />
+    <DicItem Russian="Источник" Foreign="Source" />
+    <DicItem Russian="При срабатывании Alert" Foreign="When Alert triggered" />
+    <DicItem Russian="Отправить письмо" Foreign="Notify by E-mail" />
+    <DicItem Russian="Отправить SMS" Foreign="Notify by SMS" />
+    <DicItem Russian="Хранить Alert на сервере не более" Foreign="Store Alert of server not more than " />
+    <DicItem Russian="дней" Foreign="days" />
+    <DicItem Russian="что это?" Foreign="what is it?" />
+    <DicItem Russian="Новый Alert" Foreign="New Alert" />
+    <DicItem Russian="Применить введенные настройки?" Foreign="Apply new changes in Settings?" />
+    <DicItem Russian="Ошибка: поле 'Порт Основной' содержит недопустимые символы!" Foreign="&quot;Error:  &quot;Main server&quot; Port field contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: поле 'Порт Резервный' содержит недопустимые символы!" Foreign="&quot;Error:  &quot;Reserve server&quot; Port field contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: поле 'Порт Тестовый' содержит недопустимые символы!" Foreign="&quot;Error:  &quot;Demo server&quot; Port field contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: поле 'Значение авто-стоп' содержит недопустимые символы!" Foreign="&quot;Error: &quot;Auto-stop&quot; field value contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: поле 'Значение трейл' содержит недопустимые символы!" Foreign="&quot;Error: &quot;Trailing-stop&quot; field value contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: поле 'Значение тейк-профит' содержит недопустимые символы!" Foreign="&quot;Error:  &quot;Take-profit&quot; field value contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Ошибка: выбранный сервер не должен быть пустым!" Foreign="Error:  Selected server can not have an empty field!" />
+    <DicItem Russian="Ошибка: поле 'Мин. отображаемый объем' содержит недопустимые символы!" Foreign="&quot;Error:  &quot;Minimal  volume&quot; field value contains inappropriate symbols!&quot;" />
+    <DicItem Russian="Не удалось перейти по адресу: '{0}'!" Foreign="Unable to connect to '{0}'!" />
+    <DicItem Russian="Проверьте правильность вводимых данных!" Foreign="Please, check the input data!" />
+    <DicItem Russian="Ошибка: поле 'Пароль' не может быть пустым!" Foreign="&quot;Error: &quot;Password&quot; field can not be empty!&quot;" />
+    <DicItem Russian="Ошибка: неверно введен порт!" Foreign="Error: invalid port!" />
+    <DicItem Russian="Общие" Foreign="General settings" />
+    <DicItem Russian="Звуковое оформление" Foreign="Sound alerts" />
+    <DicItem Russian="Проигрывать звук при получении IQ-сообщения" Foreign="Play sound-file on IQ-message receiving" />
+    <DicItem Russian="Проигрывать звук при совершении сделки" Foreign="Play sound-file on every trade" />
+    <DicItem Russian="Расположение звукового файла Alert" Foreign="Alert's sound-file location" />
+    <DicItem Russian="Настройка сообщений и ленты сделок" Foreign="Message settings" />
+    <DicItem Russian="показывать в виде окон" Foreign="show in pop-up window" />
+    <DicItem Russian="Минимальный объем сделки, по умолчанию:" Foreign="Minimal trade volume by default:" />
+    <DicItem Russian="Мин.объем сделки, по умолчанию:" Foreign="Min.trade volume by default:" />
+    <DicItem Russian="Сообщения и ошибки" Foreign="Messages and Errors" />
+    <DicItem Russian="Глобальные настройки" Foreign="Global settings" />
+    <DicItem Russian="Автосохранение рабочего пространства" Foreign="Autosave Workspace" />
+    <DicItem Russian="Разрешить торговлю в стакане" Foreign="Allow trading in OrderBook" />
+    <DicItem Russian="Автоматическое пересоединение" Foreign="Automatic reconnection" />
+    <DicItem Russian="Автоматически восстанавливать соединение" Foreign="Automatically restore connection" />
+    <DicItem Russian="секунд" Foreign="seconds" />
+    <DicItem Russian="попыток соединения с интервалом" Foreign="attempts to restore connection with the interval of" />
+    <DicItem Russian="Совершать не более" Foreign="Perform no more than" />
+    <DicItem Russian="Настройки соединения" Foreign="Connection settings" />
+    <DicItem Russian="Соединиться с выбранным сервером" Foreign="Connect to selected server" />
+    <DicItem Russian="Резервный" Foreign="Reserve server" />
+    <DicItem Russian="Тестовый" Foreign="Demo server" />
+    <DicItem Russian="Графики" Foreign="Charts" />
+    <DicItem Russian="Размер шрифта" Foreign="Font size" />
+    <DicItem Russian="Размер шрифта " Foreign="Font size" />
+    <DicItem Russian="Таблицы" Foreign="Spreadsheets" />
+    <DicItem Russian="Лента сделок и стакан" Foreign="All Time'n'Sale and OrderBook" />
+    <DicItem Russian="Цвета ленты сделок и стакана" Foreign="Color settings of OrderBook and Time'n'Sales" />
+    <DicItem Russian="Снижение цены" Foreign="Price decrease" />
+    <DicItem Russian="Свои покупки" Foreign="Own BUY orders" />
+    <DicItem Russian="Максимум цены" Foreign="Price maximum" />
+    <DicItem Russian="Увеличение цены" Foreign="Price increase" />
+    <DicItem Russian="Свои продажи" Foreign="Own Sell orders" />
+    <DicItem Russian="Минимум цены" Foreign="Price minimum" />
+    <DicItem Russian="Заявки и сделки" Foreign="Orders and Trades" />
+    <DicItem Russian="Продажа" Foreign="SELL" />
+    <DicItem Russian="Част. исполн." Foreign="Partial filled" />
+    <DicItem Russian="Покупка" Foreign="BUY" />
+    <DicItem Russian="Исполненная" Foreign="Filled" />
+    <DicItem Russian="Условная" Foreign="Conditional" />
+    <DicItem Russian="Активная" Foreign="Open(Active)" />
+    <DicItem Russian="Отклоненная" Foreign="Rejected" />
+    <DicItem Russian="Котировки и позиции" Foreign="Quotes and Positions" />
+    <DicItem Russian="Отрицательные" Foreign="Negative" />
+    <DicItem Russian="Положительные" Foreign="Positive" />
+    <DicItem Russian="Открытые позиции на графике" Foreign="Show Positions on Chart" />
+    <DicItem Russian="Заявки на графике" Foreign="Show Orders on Chart" />
+    <DicItem Russian="Сделки на графике" Foreign="Show Trades on Chart" />
+    <DicItem Russian="Массовая отмена заявок" Foreign="Mass canceling orders" />
+    <DicItem Russian="По всем счетам и инструментам" Foreign="On all Portfolios and on all Tickers" />
+    <DicItem Russian="По активному счету и инструменту" Foreign="On active Portfolio and on a specified Ticker" />
+    <DicItem Russian="Настройки по умолчанию" Foreign="Settings by default" />
+    <DicItem Russian="поверх все окон" Foreign="above all windows" />
+    <DicItem Russian="после ввода заявки" Foreign="after order entry" />
+    <DicItem Russian="Закрывать автоматически" Foreign="Close automatically" />
+    <DicItem Russian="Подтверждать заявки" Foreign="Orders Confirmation" />
+    <DicItem Russian="Объемы" Foreign="Quantity buttons" />
+    <DicItem Russian="Вид окна ввода заявки" Foreign="Types of Order Entry forms" />
+    <DicItem Russian="Настройки тейк-профит" Foreign="Take-profit settings" />
+    <DicItem Russian="Расчет результата по позициям" Foreign="Financial result calculation" />
+    <DicItem Russian="По лучшему биду или аску" Foreign="By Best Bid/Ask" />
+    <DicItem Russian="По цене последней сделки" Foreign="By Last Price" />
+    <DicItem Russian="Удалить тикер" Foreign="Delete Ticker" />
+    <DicItem Russian="По инструментам" Foreign="Risk parameters" />
+    <DicItem Russian="Добавить тикер" Foreign="Add Ticker" />
+    <DicItem Russian="Приказы STOP" Foreign="STOP orders" />
+    <DicItem Russian="Использовать проскальзывание для вычисления цены приказа STOP" Foreign="Use slippage for price calculation of STOP orders" />
+    <DicItem Russian="Приказы MARKET" Foreign="MARKET orders" />
+    <DicItem Russian="Использовать проскальзывание для вычисления цены приказа MARKET" Foreign="Use slippage for price calculaton of MARKET orders" />
+    <DicItem Russian="Клик" Foreign="Click" />
+    <DicItem Russian="левой кнопкой" Foreign="Left-button" />
+    <DicItem Russian="приказ" Foreign="order" />
+    <DicItem Russian="ЛИМИТ" Foreign="LIMIT" />
+    <DicItem Russian="выводит на рынок" Foreign="to place the " />
+    <DicItem Russian="правой кнопкой" Foreign="Right-button" />
+    <DicItem Russian="МАРКЕТ" Foreign="MARKET" />
+    <DicItem Russian="CTRL - ОТМЕНА заявки с выбранной ценой" Foreign="When CRTL pressed - cancels placed early orders with selected price" />
+    <DicItem Russian="выводит на рынок приказ на" Foreign="to place an order to" />
+    <DicItem Russian="Торговля в стакане" Foreign="OrderBook trading" />
+    <DicItem Russian="Вариант В" Foreign="Plan B" />
+    <DicItem Russian="Вариант А" Foreign="Plan A" />
+    <DicItem Russian="Использовать стакан для подачи приказов мышью" Foreign="Use OrderBook to place orders by mouse Click" />
+    <DicItem Russian="Продать по цене LIMIT" Foreign="SELL by LIMIT Price" />
+    <DicItem Russian="Купить по рынку (Market)" Foreign="BUY  MARKET" />
+    <DicItem Russian="Использовать горячие клавиши" Foreign="USE HOTKEYS" />
+    <DicItem Russian="Переместить на цену LIMIT" Foreign="Move to LIMIT Price" />
+    <DicItem Russian="Перевернуться" Foreign="Reverse" />
+    <DicItem Russian="Отменить последнюю заявку" Foreign="Cancel Last Order" />
+    <DicItem Russian="Выставить трейлинг-стоп" Foreign="Trailing-Stop" />
+    <DicItem Russian="Выйти лучшим бидом" Foreign="Close Position by Best Bid" />
+    <DicItem Russian="Отменить заявки на продажу" Foreign="Cancel All SELL Orders" />
+    <DicItem Russian="Купить лучшим бидом" Foreign="BUY by Best Bid" />
+    <DicItem Russian="Выставить тейк-профит и стоп-лосс" Foreign="Linked orders: Take-Profit + STOP-Loss" />
+    <DicItem Russian="Отменить заявки на покупку" Foreign="Cancel all BUY orders" />
+    <DicItem Russian="Выйти лучшим аском" Foreign="Close Position by Best Ask" />
+    <DicItem Russian="Продать по рынку (Market)" Foreign="SELL MARKET" />
+    <DicItem Russian="Купить по цене LIMIT" Foreign="BUY LIMIT" />
+    <DicItem Russian="Купить по первому аску" Foreign="BUY by Best Ask" />
+    <DicItem Russian="Продать по первому биду" Foreign="Sell by Best Bid" />
+    <DicItem Russian="Отменить все заявки" Foreign="Cancel ALL Orders" />
+    <DicItem Russian="Продать лучшим аском" Foreign="SELL by Best Ask" />
+    <DicItem Russian="Стартовая страница" Foreign="Start Page" />
+    <DicItem Russian="Показывать стартовую страницу" Foreign="Show Start Page" />
+    <DicItem Russian="Авто-стоп" Foreign="Auto-stop" />
+    <DicItem Russian="Настройки авто-стоп" Foreign="Auto-stop settings" />
+    <DicItem Russian="Всегда размещать авто-стоп относительно цены входа на" Foreign="Always place auto-stop with relation to the opening price" />
+    <DicItem Russian="Защищать позицию стоп-приказом автоматически (авто-стоп)" Foreign="Protect position with stop order automatically (auto-stop)" />
+    <DicItem Russian="Защитить позицию приказом &quot;трейлинг-стоп&quot;" Foreign="Protect of Position by Trailing-Stop order" />
+    <DicItem Russian="пт" Foreign="points" />
+    <DicItem Russian="и перемещать стоп-приказ при уходе цены на" Foreign="and move stop-order if the price move to" />
+    <DicItem Russian="Тейк-профит" Foreign="Take-Profit" />
+    <DicItem Russian="Всегда размещать тейк-профит относительно цены входа на" Foreign="Always place take-profit with relation to the opening price  " />
+    <DicItem Russian="Выставлять приказ тейк-профит" Foreign="Place Take-profit" />
+    <DicItem Russian="Распечатать страницу" Foreign="Print page" />
+    <DicItem Russian="Показывать лог подключения" Foreign="Show connection log" />
+    <DicItem Russian="ОК" Foreign="OK" />
+    <DicItem Russian="Создание графика" Foreign="Open Chart" />
+    <DicItem Russian="Название столбца" Foreign="Column title" />
+    <DicItem Russian="Вы можете менять порядок столбцов прямо в этом окне простым перетаскиванием их мышкой на нужную Вам позицию!" Foreign="The order of the column in the spreadsheet can be easily changed by using a mouse drag and drop function." />
+    <DicItem Russian="Порядок котировок" Foreign="Quotes location" />
+    <DicItem Russian="Название" Foreign="Title" />
+    <DicItem Russian="Код" Foreign="Code" />
+    <DicItem Russian="Московская Биржа" Foreign="Moscow Exchange (MOEX)" />
+    <DicItem Russian="T+: А1-Акции и паи" Foreign="T+: A1-Stocks and MIF" />
+    <DicItem Russian="T+: А2-Акции и паи" Foreign="T+: A2-Stocks and MIF" />
+    <DicItem Russian="T+: Б-Акции и паи" Foreign="T+: B-Stocks and MIF" />
+    <DicItem Russian="T+: В-Акции" Foreign="T+: V-Stocks" />
+    <DicItem Russian="T+: Д-Акции" Foreign="T+: D-Stocks" />
+    <DicItem Russian="T+: Акции и паи внесписочные" Foreign="T+: Unlisted Stocks and MIF" />
+    <DicItem Russian="А1-Акции и паи" Foreign="A1-Stocks and MIF" />
+    <DicItem Russian="Б-Акции и паи" Foreign="B-Stocks and MIF" />
+    <DicItem Russian="Акции и паи внесписочные" Foreign="Unlisted Stocks and MIF" />
+    <DicItem Russian="АДР" Foreign="ADR" />
+    <DicItem Russian="Валютный рынок MOEX" Foreign="Currency section MOEX" />
+    <DicItem Russian="А1-Облигации" Foreign="A1-Bonds" />
+    <DicItem Russian="А2-Облигации" Foreign="A2-Bonds" />
+    <DicItem Russian="Б-Облигации" Foreign="B-Bonds" />
+    <DicItem Russian="В-Облигации" Foreign="V-Bonds" />
+    <DicItem Russian="Д-Облигации" Foreign="D-Bonds" />
+    <DicItem Russian="Облигации внесписочные" Foreign="Unlisted Bonds" />
+    <DicItem Russian="Облигации внеспис. в ин. валюте" Foreign="Unlisted Bonds in foreign currency" />
+    <DicItem Russian="Еврооблигации" Foreign="Eurobonds" />
+    <DicItem Russian="Ближние" Foreign="Near exp.date" />
+    <DicItem Russian="Квартальные" Foreign="Quartal" />
+    <DicItem Russian="Истекшие" Foreign="Expired" />
+    <DicItem Russian="&amp;Закрыть" Foreign="Close" />
+    <DicItem Russian="Поиск" Foreign="Search" />
+    <DicItem Russian="Показывать опционы" Foreign="Show Options" />
+    <DicItem Russian="Показывать истекшие контракты" Foreign="Show expired contracts" />
+    <DicItem Russian="Акции, паи и АДР" Foreign="Stocks, MIFs and ADRs" />
+    <DicItem Russian="Тип финансового инструмента" Foreign="Type of Ticker" />
+    <DicItem Russian="Площадка" Foreign="Exchange" />
+    <DicItem Russian="Облигации" Foreign="Bonds" />
+    <DicItem Russian="Дата погашения" Foreign="Expiration date" />
+    <DicItem Russian="Фьючерсы" Foreign="Futures" />
+    <DicItem Russian="С датой экспирации" Foreign="With expiration date" />
+    <DicItem Russian="Все торгуемые" Foreign="All traded" />
+    <DicItem Russian="Опционы" Foreign="Options" />
+    <DicItem Russian="Путы" Foreign="PUTs" />
+    <DicItem Russian="Коллы" Foreign="CALLs" />
+    <DicItem Russian="Экспирация" Foreign="Expiration" />
+    <DicItem Russian="до" Foreign="before" />
+    <DicItem Russian="Базисный актив" Foreign="Basis" />
+    <DicItem Russian="Страйк от" Foreign="STRIKE from" />
+    <DicItem Russian="Валюта" Foreign="Currency" />
+    <DicItem Russian="Торговая площадка" Foreign="Section" />
+    <DicItem Russian="Добавить" Foreign="Add" />
+    <DicItem Russian="Выбор финансовых инструментов" Foreign="Select Ticker" />
+    <DicItem Russian="Язык интерфейса" Foreign="Language" />
+    <DicItem Russian="Произошло необработанное исключение! Модуль: " Foreign="Exception in module: " />
+    <DicItem Russian="Не удалось загрузить список горячих клавиш! Подробности: " Foreign="Not load hotkeys. Details: " />
+    <DicItem Russian="Тейк-профит с ценой " Foreign="Take-Profite with price " />
+    <DicItem Russian=" по счету " Foreign="by Portfolio" />
+    <DicItem Russian="и " Foreign="and " />
+    <DicItem Russian="на " Foreign=" " />
+    <DicItem Russian=" на " Foreign=" " />
+    <DicItem Russian=" на" Foreign=" " />
+    <DicItem Russian="Будет выставлен трейлинг-стоп с ценой стоп " Foreign="Trailing-Stop with Stop-Price " />
+    <DicItem Russian=" и трейлингом " Foreign=" and trailing " />
+    <DicItem Russian="Будет выставлен приказ АЙСБЕРГ с ценой " Foreign="ICEBERG-Order with Price " />
+    <DicItem Russian=" с квантом объема " Foreign=" with quant-volume " />
+    <DicItem Russian="Будет выставлен приказ на экспирацию " Foreign="Expiration-Order " />
+    <DicItem Russian=" лот" Foreign=" lot" />
+    <DicItem Russian=" лота" Foreign=" lot" />
+    <DicItem Russian=" лотов" Foreign=" lots" />
+    <DicItem Russian=" штука" Foreign=" pcs." />
+    <DicItem Russian=" штук" Foreign=" pcs." />
+    <DicItem Russian=" штуки" Foreign=" pcs." />
+    <DicItem Russian="если цена " Foreign="if Price of the " />
+    <DicItem Russian="по цене " Foreign="by Price: " />
+    <DicItem Russian=" приказ LIMIT" Foreign=" Order Type: LIMIT" />
+    <DicItem Russian="по рынку приказ STOP " Foreign=" Market-Order STOP " />
+    <DicItem Russian=" приказ STOP " Foreign=" Order Type: STOP" />
+    <DicItem Russian=" приказ ICEBERG" Foreign=" Order Type: ICEBERG" />
+    <DicItem Russian=" приказ EXPIRY" Foreign=" Order Type: EXPIRY" />
+    <DicItem Russian=" приказ REPO с ЦК" Foreign=" Order Type: REPO with CK" />
+    <DicItem Russian=" приказ STOPLOSS-TAKEPROFIT" Foreign=" Order Type: STOPLOSS-TAKEPROFIT" />
+    <DicItem Russian=" приказ IQ LIMIT" Foreign=" Order Type: IQ LIMIT" />
+    <DicItem Russian=" приказ REPO CC" Foreign=" Order Type: REPO CC" />
+    <DicItem Russian="Ошибка соединения: " Foreign="Error of Connection: " />
+    <DicItem Russian=": листенер исключен из потока из-за " Foreign=": listener excluded from the flow of" />
+    <DicItem Russian=" подряд вызванных исключений" Foreign=" consecutive throw exceptions" />
+    <DicItem Russian="Версия: " Foreign="Version: " />
+    <DicItem Russian="Экспирировать " Foreign="Expiration " />
+    <DicItem Russian="Отменить " Foreign="Cancel " />
+    <DicItem Russian="Заявка " Foreign="Order " />
+    <DicItem Russian="В портфеле " Foreign="In Portfolio " />
+    <DicItem Russian=" нет активных заявок по инструменту " Foreign=" not have active orders by ticker " />
+    <DicItem Russian=" нет активных заявок!" Foreign=" not have active orders!" />
+    <DicItem Russian="Вы не можете выйти из позиции по инструменту " Foreign="You can not Close Position of the Instrument " />
+    <DicItem Russian="Вы также можете добавить инструмент " Foreign="You can also add instrument" />
+    <DicItem Russian=" в котировки и повторить попытку." Foreign="in Quotes and try again." />
+    <DicItem Russian="Позиция по инструменту " Foreign="Position of ticker " />
+    <DicItem Russian=" не найдена!" Foreign=" not found!" />
+    <DicItem Russian="Цена срабатывания IQ-приказа" Foreign="Action-Price of IQ-order" />
+    <DicItem Russian="Цены СТОП и СТОП-ЛИМИТ связки определяются в соответствии с полями &quot;Цена&quot;, &quot;Проскальзывание&quot; и флагом &quot;Стоп по рынку&quot;." Foreign="Prices of linked orders (STOP and STOP-LIMIT) are determined in accordance with the fields Price, Slippage and flag STOP MKT" />
+    <DicItem Russian="Невозможно сохранить рабочее пространство в " Foreign="Unable to save the workspace in " />
+    <DicItem Russian=" Мб" Foreign="Mb" />
+    <DicItem Russian=" Кб" Foreign="Kb" />
+    <DicItem Russian=" б" Foreign="b" />
+    <DicItem Russian="ВМ и ГП" Foreign="VM and GP" />
+    <DicItem Russian="Защитить позицию связкой &quot;тейк-профит + стоп-лосс&quot;" Foreign="Protect of Position by order-packet &quot;Take-Profite and Stop-Loss&quot;" />
+    <DicItem Russian="Удалить " Foreign="Delete " />
+    <DicItem Russian="Настройки: " Foreign="Settings:" />
+    <DicItem Russian="Проиграть звуковой сигнал" Foreign="Play sound" />
+    <DicItem Russian="Вы действительно хотите удалить " Foreign="Do you really want to remove " />
+    <DicItem Russian=" из риск-менеджмента?" Foreign=" from risk-manegement?" />
+    <DicItem Russian="выводить в окно &quot;Логи и события&quot;" Foreign="sending in window &quot;Logs and Events&quot;" />
+    <DicItem Russian="Основной" Foreign="Base" />
+    <DicItem Russian="Логин" Foreign="Login" />
+    <DicItem Russian="Окно &quot;Ввод заявки&quot;" Foreign="Order Entry" />
+    <DicItem Russian="Данные значения будут отображаться в окне ввода заявки на кнопках выстрого ввода объема" Foreign="These values will be shown in Order Entry window on Qty-fast-buttons" />
+    <DicItem Russian="По портфелям" Foreign="By Portfolios" />
+    <DicItem Russian="Подсказка" Foreign="Hint" />
+    <DicItem Russian="Использовать настройки таблицы &quot;Риск-менеджмент&quot;" Foreign="Use Risk-management settings" />
+    <DicItem Russian="Торгуемые" Foreign="Traded" />
+    <DicItem Russian="Инструмент в заголовке:" Foreign="Instruments in Caption:" />
+    <DicItem Russian="В графиках" Foreign="In Charts" />
+    <DicItem Russian="В таблицах" Foreign="In Tables" />
+    <DicItem Russian="Инструменты" Foreign="Instruments" />
+    <DicItem Russian="лоты" Foreign="lots" />
+    <DicItem Russian="шт" Foreign="pcs." />
+    <DicItem Russian="(лоты)" Foreign="(lots)" />
+    <DicItem Russian="(шт)" Foreign="(pcs.)" />
+    <DicItem Russian="Ошибка в параметрах экспорта: с сервера можно загрузить не более {0} свечей за один раз" Foreign="Error in export parameters: You cannot download more than {0} candles from server at a time" />
+    <DicItem Russian="Ошибка в параметрах экспорта: 'Время с' превышает время последней свечи" Foreign="Error in export parameters: The parametre 'Time since' exceed time the the last candle" />
+    <DicItem Russian="Ошибка в параметрах экспорта: 'Время с' меньше времени первой свечи" Foreign="Error in export parameters: Parameter 'Time to' less than time of the first candle" />
+    <DicItem Russian="Ошибка в параметрах экспорта: отрицательное количество свечей" Foreign="Error in export parameters: Negative number of candles" />
+    <DicItem Russian=" (Фильтр)" Foreign=" (Filter)" />
+    <DicItem Russian="Метод 'GetAllItems' не реализован" Foreign="Metod 'GetAllItems' is not applied" />
+    <DicItem Russian="Данные для экспорта" Foreign="Data for Export" />
+    <DicItem Russian="Время с" Foreign="Time since" />
+    <DicItem Russian="Выгрузить колонки" Foreign="Export columns" />
+    <DicItem Russian="минут" Foreign="minutes" />
+    <DicItem Russian="Выделять котировки, которые не обновлялись" Foreign="Highlight quotes which have not refreshed" />
+    <DicItem Russian="Отступ от цены" Foreign="Indent from a price" />
+    <DicItem Russian="Объем заявки" Foreign="Default Qty" />
+	<DicItem Russian="Торговый инструмент" Foreign="Instrument" />
+	<DicItem Russian="Тикер инструмента" Foreign="Symbol" />	
+	<DicItem Russian="Краткое наименование инструмента" Foreign="Short Name" />	
+	<DicItem Russian="Изменение цены в %" Foreign="Change of price, %%" />
+	<DicItem Russian="(покупка/продажа)" Foreign="Buy/Sell" />	
+	<DicItem Russian="покупка/продажа" Foreign="Buy/Sell" />	
+	<DicItem Russian="Время выставления заявки" Foreign="Order Time" />
+	<DicItem Russian="Время сделки" Foreign="Trade Time" />
+	<DicItem Russian="Время котировки" Foreign="Time Change" />
+	<DicItem Russian="Время закрытия позиции" Foreign="Closing Time Position" />
+	<DicItem Russian="Время закрытия позиции " Foreign="Closing Time Position" />
+	<DicItem Russian="Цена лимит" Foreign="Limit Price" />	
+	<DicItem Russian="Цена сделки" Foreign="Trade Price" />	
+	<DicItem Russian="Цена стоп" Foreign="Stop Price" />	
+	<DicItem Russian="Тип приказа " Foreign="Order Type" />	
+	<DicItem Russian="Срок действия (Day, Good Till Cancel)" Foreign="Time in Force" />	
+	<DicItem Russian="Текущий статус" Foreign="Order Status" />	
+	<DicItem Russian="Подробное описание приказа" Foreign="Order Details" />	
+	<DicItem Russian="№ заявки в ТС биржи" Foreign="Broker's system Order ID" />
+	<DicItem Russian="№ приказа в ТС брокера" Foreign="Exchange Order Number" />
+	<DicItem Russian="Биржевой номер сделки" Foreign="Exchange Trade Number" />	
+	<DicItem Russian="Количество со знаком" Foreign="Qty with Sign" />	
+	<DicItem Russian="Прибыль/убыток по закрытой позиции" Foreign="Profit/Loss of Closed Position" />	
+	<DicItem Russian="Прибыль/убыток по позиции" Foreign="Profit/Loss of Position" />	
+	<DicItem Russian="Прибыль/убыток к величине позиции" Foreign="Profit/Loss of Position in percent" />
+	<DicItem Russian="Планируемое количество" Foreign="Planned Qty" />	
+	<DicItem Russian="Волатильность" Foreign="Volatility" />
+	<DicItem Russian="Балансовая цена позиции" Foreign="Average Price of Position" />
+	<DicItem Russian="Теор. Цена" Foreign="Theor.Price" />		
+	<DicItem Russian="Размер спроса(шт)" Foreign="Ask Size(pcs.)" />	
+	<DicItem Russian="Размер предложения(шт)" Foreign="Bid Size(pcs.)" />	
+	<DicItem Russian="Объем покупок(шт)" Foreign="Buy Volume(pcs.)" />	
+	<DicItem Russian="Объем продаж(шт)" Foreign="Sell Volume(pcs.)" />
+	<DicItem Russian="Объем посл.(шт)" Foreign="Last Volume(pcs.)" />	
+	<DicItem Russian="Объем(шт)" Foreign="Volume(pcs.)" />	
+	<DicItem Russian="Объем(лоты)" Foreign="Volume(lots)" />	
+	<DicItem Russian="Размер спроса(лоты)" Foreign="Ask Size(lots)" />	
+	<DicItem Russian="Размер предложения(лоты)" Foreign="Bid Size(lots)" />	
+	<DicItem Russian="Объем покупок(лоты)" Foreign="Buy Volume(lots)" />	
+	<DicItem Russian="Объем продаж(лоты)" Foreign="Sell Volume(lots)" />
+	<DicItem Russian="Объем посл.(лоты)" Foreign="Last Volume(lots)" />	
+	<DicItem Russian="Обновить данные" Foreign="Refresh" />
+	<DicItem Russian="Объем в лотах" Foreign="Qty in lots" />
+	<DicItem Russian="Объем в штуках" Foreign="Qty in pcs." />
+	<DicItem Russian="Запоминать позицию окна" Foreign="Save screen-position" />
+	<DicItem Russian="Объем по умолчанию" Foreign="Default Qty" />	
+	<DicItem Russian="Введенный объем" Foreign="User's Qty" />
+	<DicItem Russian="Объем строки стакана" Foreign="Qty from OrderBook" />		
+	<DicItem Russian="У Вас есть открытые позиции в портфелях:" Foreign="You have Open Positions in Portfolios:" />
+	<DicItem Russian="У Вас есть активные заявки в портфелях:" Foreign="You have Active Orders in Portfolios:" />
+	<DicItem Russian="У Вас есть открытые позиции в портфелях!" Foreign="You have Open Positions in Portfolios!" />
+	<DicItem Russian="У Вас есть активные заявки в портфелях!" Foreign="You have Active Orders in Portfolios!" />
+	<DicItem Russian="Нужно выбрать хотя бы одно значение для фильтрации!" Foreign="Please Select at least one Values for applying a filter!" />
+	<DicItem Russian="Лицевой счет" Foreign="Portfolio" />
+        <DicItem Russian="Ошибка: поле 'Логин' не может быть пустым!" Foreign="Error: &quot;Login&quot; can not be empty!" />
+        <DicItem Russian=" инструментов" Foreign=" of Instruments" />
+        <DicItem Russian=" (Осн.)" Foreign=" (Base)" />
+        <DicItem Russian=" (Резерв.)" Foreign=" (Res.)" />
+        <DicItem Russian=" (Тест.)" Foreign=" (Test.)" />
+	<DicItem Russian="Количество активных заявок" Foreign="Quantity of Active Orders" />
+        <DicItem Russian="Торговые комиссии" Foreign="Exchange Fee" />
+        <DicItem Russian="Тип портфеля" Foreign="Type of Portfolio" />
+        <DicItem Russian="Макс. убыток" Foreign="Max Loss" />
+        <DicItem Russian="Рабочее пространство: " Foreign="Workspace: " />
+        <DicItem Russian="Реализованная прибыль (убыток)" Foreign="Realized profit(loss)" />
+        <DicItem Russian="Нереализованная прибыль (убыток)" Foreign="Unrealized profit(loss)" />
+        <DicItem Russian="Вариационная маржа" Foreign="Variation Margin" />
+	<DicItem Russian="Стоимость счета после закрытия всех позиций по текущим рыночным ценам" Foreign="Portfolio Assets Value after the closure of all positions at current market prices" />
+	<DicItem Russian="Средства, которые можно вывести со счета" Foreign="Available Funds that can be withdrawn from the account" />
+	<DicItem Russian="Требуемая величина залогов, необходимых для удержания открытых позиций" Foreign="Required Value of Collateral required to hold open margin positions" />
+	<DicItem Russian="Величина Обеспечения" Foreign="Assets Value" />
+	<DicItem Russian="Стоимость длинных позиций" Foreign="Val of Long-positions" />
+	<DicItem Russian="Стоимость коротких позиций" Foreign="Val of Short-positions" />
+	<DicItem Russian="Величина займа" Foreign="Value of the credit" />
+	<DicItem Russian="Минимально допустивая величина залогов" Foreign="Minimal Margin" />
+        <DicItem Russian="Минимально допустимая величина залогов" Foreign="Minimal Margin" />
+        <DicItem Russian="Период красной линии (&quot;Зубы&quot;)" Foreign="Period of Red Line (&quot;Teeth&quot;)" />
+        <DicItem Russian="Сдвиг красной линии (&quot;Зубы&quot;)" Foreign="Shift of Red Line (&quot;Teeth&quot;)" />
+        <DicItem Russian="Период зеленой линии (&quot;Губы&quot;)" Foreign="Period of Green Line (&quot;Lips&quot;)" />
+        <DicItem Russian="Сдвиг зеленой линии (&quot;Губы&quot;)" Foreign="Shift of Green Line (&quot;Lips&quot;)" />
+        <DicItem Russian="Период синей линии (&quot;Челюсти&quot;)" Foreign="Period of Blue Line (&quot;Jaws&quot;)" />
+        <DicItem Russian="Сдвиг синей линии (&quot;Челюсти&quot;)" Foreign="Shift of Blue Line (&quot;Jaws&quot;)" />
+        <DicItem Russian="Период (&quot;Зубы&quot;)" Foreign="Period (&quot;Teeth&quot;)" />
+        <DicItem Russian="Сдвиг (&quot;Зубы&quot;)" Foreign="Shift (&quot;Teeth&quot;)" />
+        <DicItem Russian="Тип (&quot;Зубы&quot;)" Foreign="Type (&quot;Teeth&quot;)" />
+        <DicItem Russian="Применить к (&quot;Зубы&quot;)" Foreign="Apply to (&quot;Teeth&quot;)" />
+        <DicItem Russian="Цвет (&quot;Зубы&quot;)" Foreign="Color (&quot;Teeth&quot;)" />
+        <DicItem Russian="Период (&quot;Губы&quot;)" Foreign="Period (&quot;Lips&quot;)" />
+        <DicItem Russian="Сдвиг (&quot;Губы&quot;)" Foreign="Shift (&quot;Lips&quot;)" />
+        <DicItem Russian="Тип (&quot;Губы&quot;)" Foreign="Type (&quot;Lips&quot;)" />
+        <DicItem Russian="Применить к (&quot;Губы&quot;)" Foreign="Apply to (&quot;Lips&quot;)" />
+        <DicItem Russian="Цвет (&quot;Губы&quot;)" Foreign="Color (&quot;Lips&quot;)" />
+        <DicItem Russian="Период (&quot;Челюсти&quot;)" Foreign="Period (&quot;Jaws&quot;)" />
+        <DicItem Russian="Сдвиг (&quot;Челюсти&quot;)" Foreign="Shift (&quot;Jaws&quot;)" />
+        <DicItem Russian="Тип (&quot;Челюсти&quot;)" Foreign="Type (&quot;Jaws&quot;)" />
+        <DicItem Russian="Применить к (&quot;Челюсти&quot;)" Foreign="Apply to (&quot;Jaws&quot;)" />
+        <DicItem Russian="Цвет (&quot;Челюсти&quot;)" Foreign="Color (&quot;Jaws&quot;)" />
+        <DicItem Russian="Соединение установлено. Загружено " Foreign="The connection is established. Uploaded" />   
+        <DicItem Russian="Не удалось получить информацию о расширениях: " Foreign="Unable to get information about Plugins:" />
+        <DicItem Russian="Поднять окно &quot;Ввод заявки&quot;" Foreign="Bring up the window &quot;Order Entry&quot;" />
+	<DicItem Russian="Отказано в доступе по пути " Foreign="Access denied for path " />
+	<DicItem Russian="Выйти" Foreign="Exit" />
+    <DicItem Russian=" и&#10;" Foreign="&#10;and &#10;" />
+    <DicItem Russian="Изменить список серверов можно в меню &quot;Настройки - Соединение&quot;" Foreign="You may change the list of server in the menu &quot; Settings - Connection&quot;" />
+    <DicItem Russian="Изменить порт сервера можно в меню &quot;Настройки - Соединение&quot;" Foreign="You may change the server port in the menu &quot;Settings - Connection&quot;" />
+    <DicItem Russian="Риск-менеджмент уже содержит все инструменты из таблицы &quot;Котировки&quot;!" Foreign="Risk management already contains all the Tickers from the table &quot;Quotes&quot;!" />
+    <DicItem Russian="объема" Foreign="quantity" />
+    <DicItem Russian="' не обрабатывает изменения состояния подписки" Foreign=" does not process Subscription state changes" />
+    <DicItem Russian="Торговый терминал и конструктор роботов " Foreign="Trading terminal and algo-strategy constructor - "/>
+    <DicItem Russian="Разработан с использованием программных кодов  M4 Trading Platform, лицензированных OEM лицензией для " Foreign="Developed using program codes of M4 Trading Platform, which is certified by OEM license for "/>
+    <DicItem Russian="TradeScript™ является зарегистрированным товарным знаком, принадлежащем компании Modulus Financial Engineering, Inc.&#13;&#10;&#13;&#10;{0} является зарегистрированным товарным знаком, принадлежащем {1}." Foreign="TradeScript ™ is a registered trademark owned by the company Modulus Financial Engineering, Inc&#13;&#10;&#13;&#10;{0} is a registered trademark owned by the company {1}"/>
+    <DicItem Russian=" компанией Modulus Financial Engine" Foreign=" by Modulus Financial Engine" />
+    <DicItem Russian="%AppName% попыталась выполнить операцию, не разрешенную политикой безопасности." Foreign="Ignore this error and try to continue." />
+    <DicItem Russian="Пожалуйста, сообщите %CompanyName% об этой проблеме." Foreign="Please send report to %CompanyName%." />
+    <DicItem Russian="Чтобы улучшить это программное обеспечение, %CompanyName% заинтересованы в получении дополнительной информации об этой ошибке. Мы создали отчет об ошибках, который Вы можете отправить разработчику." Foreign="In order to improve the quality of this software, % CompanyName% is interested in receiving any available information about this error. We have created an error report, which you may send to the developer." />
+    <DicItem Russian="Сохранить в файл" Foreign="Save to file" />
+    <DicItem Russian="%AppName% столкнулся с проблемой.\nПриносим извинения за доставленные неудобства." Foreign="Sorry, %AppName% closed with error" />
+    <DicItem Russian="Заново" Foreign="Repeat" />
+    <DicItem Russian="Пожалуйста, подождите пока %AppName% отправляет отчет %CompanyName% через Интернет." Foreign="Please wait until %AppName% sends reports %CompanyName% via the Internet" />
+    <DicItem Russian="Подготовка отчета об ошибке." Foreign="Prepare report about error." />
+    <DicItem Russian="Соединение с сервером." Foreign="The connection to the server." />
+    <DicItem Russian="Передача отчета." Foreign="Sending report" />
+    <DicItem Russian="Отправка отчета завершена. Спасибо!" Foreign="Report is sent. Thank you." />
+    <DicItem Russian="E-mail адрес:" Foreign="Your e-mail:" />
+    <DicItem Russian="Я предпочту отправить отчет анонимно." Foreign="Send reports anonymously" />
+    <DicItem Russian="Если Вы хотите, чтобы%CompanyName% связались с Вами по поводу этой ошибки, пожалуйста, укажите свой e-mail адрес. Данная информация не будет использована в других целях." Foreign="If you want that representative of %CompanyName% contacts you about this error, please type in your e-mail address. This information will not be used for other purposes." />
+    <DicItem Russian="Хотите ли вы, чтобы %CompanyName% связались с Вами по поводу данной проблемы?" Foreign="Would you like that %CompanyName% representative contacts you about this problem?" />                                              
+    <DicItem Russian="Отправить отчет" Foreign="Send a report" />
+    <DicItem Russian="Отладка" Foreign="Debugging" />
+    <DicItem Russian="Не отправлять" Foreign="Don't send" />
+    <DicItem Russian="&#13;&#10;&#13;&#10;Подробности:&#13;&#10;" Foreign="&#13;&#10;&#13;&#10;Details:&#13;&#10;" />
+    <DicItem Russian="&#13;&#10;&#13;&#10;Приложение будет закрыто!" Foreign="&#13;&#10;&#13;&#10;The application will be closed!" />
+    <DicItem Russian="&#13;&#10;&#13;&#10;Отправить отчет разработчику" Foreign="&#13;&#10;&#13;&#10;Send a report to Developer" />
+    <DicItem Russian="Данный приказ не может быть передан на сервер брокера, поскольку противоречит Вашим настройкам риск-менеджмента!&#13;&#10;" Foreign="This order can not be transferred to the broker server, because it conflicts with your risk-management settings!&#13;&#10;" />
+    <DicItem Russian="'!&#13;&#10;Проверьте наличие этого инструмента в таблице котировок!" Foreign="!&#13;&#10;Check the availability of this Ticker in the Quotes board!" />
+    <DicItem Russian="При удалении расширения будут закрыты все связанные с ним окна&#13;&#10;Удалить расширение '" Foreign="Upon the Plugin removal, all associated windows will be closed&#13;&#10; Remove Plugin '" />
+    <DicItem Russian="' успешно установлено!&#13;&#10;Для работы с ним необходимо перезапустить SMARTx" Foreign="' installed successfully!&#13;&#10;SMARTx restart is " />
+    <DicItem Russian="' успешно установлено!&#13;&#10;Для работы с ним необходимо перезапустить {0}" Foreign="' installed successfully!&#13;&#10;Please restart SMARTx" />
+    <DicItem Russian="' успешно удалено!&#13;&#10;Для его повторной установки необходимо перезапустить {0}" Foreign="' removed successfully!&#13;&#10;For re-installation you must restart the {0}" />
+    <DicItem Russian="' успешно удалено!{0}Для его повторной установки необходимо перезапустить {1}" Foreign="' removed successfully!{0}For re-installation you must restart the {1}" />
+    <DicItem Russian="Вы можете выйти из этой позиции по рынку или установленной Вами цене лимит.&#13;&#10;" Foreign="The  position can be closed by MARKET or LIMIT orders.&#13;&#10;" />
+    <DicItem Russian="Стоп на&#13;&#10;покупку" Foreign="BUY STOP" />
+    <DicItem Russian="Купить&#13;&#10;по рынку" Foreign="BUY MKT" />
+    <DicItem Russian="Продать&#13;&#10;по рынку" Foreign="SELL MKT" />
+    <DicItem Russian="Лучшая&#13;&#10;продажа" Foreign="Best ASK&#13;&#10;(LIMIT)" />
+    <DicItem Russian="Лучшая&#13;&#10;покупка" Foreign="Best BID&#13;&#10;(LIMIT)" />
+    <DicItem Russian="Стоп на&#13;&#10;продажу" Foreign="SELL STOP" />
+    <DicItem Russian="&#13;&#10;&#13;&#10;Все равно закрыть?" Foreign="&#13;&#10;&#13;&#10;Sure to close? " />
+    <DicItem Russian="!&#13;&#10;Отказано в доступе." Foreign="!&#13;&#10;Access denied." />
+    <DicItem Russian="&#13;&#10;по счету {0}?" Foreign="&#13;&#10; on Portfolio {0}?" />
+    <DicItem Russian="Инструменты с кодами&#13;&#10;" Foreign="Tickers with codes &#13;&#10;" />
+
+    <DicItem Russian="Доступ к торговым площадкам&#13;&#10;" Foreign="Access to these exchanges &#13;&#10; " />
+    <DicItem Russian="&#13;&#10;запрещен!" Foreign=" &#13;&#10; is denied!" />
+    <DicItem Russian="Доступ к торговым площадкам '" Foreign="Access to these exchanges' " />
+    <DicItem Russian="Доступ к торговой площадке '{0}' запрещен!" Foreign="Access to this exchange '{0}' is not allowed!" />
+    <DicItem Russian="Доступ к торговой площадке '" Foreign="Access to this exchange ' " />
+    <DicItem Russian="Выбранное окно ввода заявки не поддерживает операции с приказами '{0}'!&#13;&#10;Вы можете изменить окно ввода заявки в меню 'Настройки' во вкладке 'Торговля'." Foreign="&quot;Chosen order entry form does not support such operations '{0}'!\r\ Please, select the order entry form in &quot;Settings&quot; menu (tab &quot;Trading&quot;)&quot;" />    	
+    <DicItem Russian="Невозможно запустить установку обновления!&#13;&#10;" Foreign="Unable to launch update installation!&#13;&#10;" />
+    <DicItem Russian="Для запуска обновления необходимо закрыть {0}.&#13;&#10;Закрыть {0} сейчас?" Foreign="For update launch {0} should be closed. &#13;&#10; Proceed with {0} closure?" />
+    <DicItem Russian="Для запуска обновления необходимо закрыть SMARTx.&#13;&#10;Закрыть SMARTx сейчас?" Foreign="For update launch SMARTx should be closed. &#13;&#10; Proceed with SMARTx closure?" />
+    <DicItem Russian="Простое окно ввода заявки" Foreign="Simple Order Entry form"  />
+    <DicItem Russian="Расширенное окно ввода заявки" Foreign="Advanced Order Entry form" />
+    <DicItem Russian="Компактное окно ввода заявки" Foreign="Compact Order Entry form" />
+    <DicItem Russian="Отступ от&#13;&#10;выбранной цены&#13;&#10;по умолчанию" Foreign="Default shift &#13;&#10; on selected price" />
+    <DicItem Russian="Объем заявки&#13;&#10;по умолчанию" Foreign="Default Order size" />
+    <DicItem Russian="Инициализация объекта не произошла по причине:&#13;&#10;" Foreign="Object Initialization had failed due to:&#13;&#10;" />
+    <DicItem Russian="Сохранение объекта вызвало ошибку:&#13;&#10;" Foreign="Object saving caused an error:&#13;&#10;" />
+    <DicItem Russian="Загрузка объекта вызвала ошибку:&#13;&#10;" Foreign="Object loading caused an error:&#13;&#10;" />
+    <DicItem Russian="При запросе выхода из программы возникло исключение:&#13;&#10;" Foreign="An exception occurred on the query to shutdown  :&#13;&#10;" />
+    <DicItem Russian="При освобождении экземпляра возникло исключение:&#13;&#10;" Foreign="An exception occurred:&#13;&#10;" />
+    <DicItem Russian=" лучшим бидом, поскольку его нет в котировках.&#13;&#10;" Foreign="best Bid because it is not in quotes." />    
+    <DicItem Russian=" лучшим аском, поскольку его нет в котировках.&#13;&#10;" Foreign="best Ask because it is not in quotes." />
+    <DicItem Russian=" лучшей заявкой, поскольку его нет в котировках.&#13;&#10;" Foreign="best Order because it is not in quotes." />
+    <DicItem Russian="Цена ЛИМИТ в связке&#13;&#10;(Take Profit)" Foreign="Take-Profit Price (LIMIT)&#13;&#10;in Linked orders" />
+    <DicItem Russian="Нельзя менять местами отсортированные данные!&#13;&#10;Снимите сортировку и повторите попытку!" Foreign="Columns with sorting cannot be moved!&#13;&#10;Please, cancel the sorting and try again!" />
+    <DicItem Russian="Нельзя менять местами отфильтрованные данные!&#13;&#10;Снимите фильтр и повторите попытку!" Foreign="Columns with filter cannot be moved!&#13;&#10;Please, cancel the filter and try again!" />
+    <DicItem Russian="Толщина бара" Foreign="Depth" />
+    <DicItem Russian="Толщина бара в пикселях" Foreign="Depth in pixels" />
+    <DicItem Russian="Прозрачность подписей" Foreign="Transparent of the label" />
+    <DicItem Russian="Прозрачность фона подписей в %" Foreign="Transparent of the label background" />
+    <DicItem Russian="Прозрачность фона" Foreign="Transparent" />
+    <DicItem Russian="Отступ от выбранной цены" Foreign="Indent the select price" />
+    <DicItem Russian="Стоп-лосс" Foreign="Stop-loss" />
+    <DicItem Russian="Трейл-стоп" Foreign="Trail-stop" />
+    <DicItem Russian="Проскальз" Foreign="Slippage" />
+    <DicItem Russian="Позиции" Foreign="Positions" />
+    <DicItem Russian="Макс.заявка" Foreign="Max Qty" />
+    <DicItem Russian="Макс.позиция" Foreign="Max positions" />
+    <DicItem Russian="Макс. заявка" Foreign="Max Order Qty" />
+    <DicItem Russian="Макс. позиция" Foreign="Max position" />
+    <DicItem Russian="Заявка по умолчанию" Foreign="Default Order Qty" />
+    <DicItem Russian="Время жизни приказа" Foreign="LifeTime of Order" />
+    <DicItem Russian="Время жизни приказов" Foreign="LifeTime of Orders" />
+    <DicItem Russian="Время жизни ордера" Foreign="LifeTime of Order" />
+    <DicItem Russian="Время жизни заявки" Foreign="LifeTime of Order" />
+    <DicItem Russian="Цвет стоп- заявки на покупку" Foreign="Color for BUY-stop" />
+    <DicItem Russian="Цвет стоп-заявки на покупку" Foreign="Color for BUY-stop" />
+    <DicItem Russian="Цвет стоп- заявки на продажу" Foreign="Color for SELL-stop" />
+    <DicItem Russian="Цвет стоп-заявки на продажу" Foreign="Color for SELL-stop" />
+    <DicItem Russian="Видимость" Foreign="Show" />
+    <DicItem Russian="Автомасштаб" Foreign="Autoscale" />
+    <DicItem Russian="Тип графика" Foreign="Chart style" />
+    <DicItem Russian="Отступ графика" Foreign="Chart right-side margin" />
+    <DicItem Russian="Отступ" Foreign="Chart margin" />
+    <DicItem Russian="Цвет бида" Foreign="Bid color" />
+    <DicItem Russian="Цвет аска" Foreign="Ask color" />
+    <DicItem Russian="Цвет текста" Foreign="Text color" />
+    <DicItem Russian="Цвет фигуры" Foreign="Color" />
+    <DicItem Russian="Цвета" Foreign="Colors" />
+    <DicItem Russian="Цвет макс. об." Foreign="Max.Vol.Color" />
+    <DicItem Russian="Цвет фона" Foreign="Color for background" />
+    <DicItem Russian="Прозрачность" Foreign="Transparent" />
+    <DicItem Russian="Цвет линий" Foreign="Color for lines" />
+    <DicItem Russian="Цвет линии" Foreign="Color of line" />
+    <DicItem Russian="Цвет подписей" Foreign="Color for labels" />
+    <DicItem Russian="Толщина линий" Foreign="Width of lines" />
+    <DicItem Russian="Толщина линии" Foreign="Width of line" />
+    <DicItem Russian="Стиль линий" Foreign="Style of lines" />
+    <DicItem Russian="Подпись" Foreign="Label" />
+    <DicItem Russian="Шрифт подписей" Foreign="Font of labels" />
+    <DicItem Russian="Отображать/скрыть подпись" Foreign="Show/Hide label" />
+    <DicItem Russian="Цвет подписи" Foreign="Color of label" />
+    <DicItem Russian="Цвет фона подписи" Foreign="Color for background of label" />
+    <DicItem Russian="Шрифт надписи" Foreign="Font for caption" />
+    <DicItem Russian="Шрифт" Foreign="Font" />
+    <DicItem Russian="Стиль" Foreign="Style" />
+    <DicItem Russian="Вектор" Foreign="Vector" />
+    <DicItem Russian="Цвет надписи" Foreign="Color for caption" />
+    <DicItem Russian="Текст надписи" Foreign="Text of caption" />
+    <DicItem Russian="Цвет контура" Foreign="Color for outline" />
+    <DicItem Russian="Показывать координатную сетку" Foreign="Plot grid lines" />
+    <DicItem Russian="Сетка" Foreign="Grid lines" />
+    <DicItem Russian="Средняя линия" Foreign="Middle line" />
+    <DicItem Russian="Цвет сетки" Foreign="Color for grid lines" />
+    <DicItem Russian="Показывать линию" Foreign="Show line" />
+    <DicItem Russian="Цвет сделки на покупку" Foreign="Color BUY trade" />
+    <DicItem Russian="Цвет сделки на продажу" Foreign="Color SELL trade" />
+    <DicItem Russian="Показывать заявки" Foreign="Show orders" />
+    <DicItem Russian="Показывать позиции" Foreign="Show positions" />
+    <DicItem Russian="Показывать сделки" Foreign="Show trades" />
+    <DicItem Russian="Показывать значения индикаторов" Foreign="Show value of indicators" />
+    <DicItem Russian="Цвет лимитированной заявки на покупку" Foreign="Color BUY limit-order" />
+    <DicItem Russian="Цвет заявки на покупку" Foreign="Color BUY order" />
+    <DicItem Russian="Цвет лимитированной заявки на продажу" Foreign="Color SELL limit-order" />
+    <DicItem Russian="Цвет заявки на продажу" Foreign="Color SELL order" />
+    <DicItem Russian="Значения индикаторов" Foreign="Value of indicators" />
+    <DicItem Russian="Прозрачность фигуры в %" Foreign="Transparent %" />
+    <DicItem Russian="Профиль рынка" Foreign="Market Profile" />
+    <DicItem Russian="Цвет средн. цены" Foreign="Color for middle price" />
+    <DicItem Russian="Ширина фигуры в процентах от ширины графика" Foreign="Width figure as a percentage of the width of the graph" />
+    <DicItem Russian="Ширина %" Foreign="Width %" />
+    <DicItem Russian="Положение" Foreign="Position" />
+    <DicItem Russian="Подсказки" Foreign="Hints" />
+    <DicItem Russian="Выделение" Foreign="Selection" />
+    <DicItem Russian="Глубина" Foreign="Depth" />
+    <DicItem Russian="Максимальный объем" Foreign="Maximum volume" />
+    <DicItem Russian="Заявки клиента" Foreign="Orders" />
+    <DicItem Russian="Цвет Value Area" Foreign="Color for Value Area" />
+    <DicItem Russian="Значимые уровни" Foreign="Important levels" />
+    <DicItem Russian="Цвет линий Фибоначчи" Foreign="Color for Fibonacci lines" />
+    <DicItem Russian="Толщина линий Фибоначчи" Foreign="Width of Fibonacci lines" />
+
+    <DicItem Russian="↑ Вверх" Foreign="↑ Up" />
+    <DicItem Russian="↓ Вниз" Foreign="↓ Down" />
+    <DicItem Russian="Настройка SMARTx" Foreign="SMARTx settings" />
+    <DicItem Russian="Настройка {0}" Foreign="{0} settings" />
+    <DicItem Russian="{0}Подтвердите закрытие терминала" Foreign="{0}Do You confirm closing SMARTx?" />
+    <DicItem Russian="Группировать индикаторы" Foreign="Group indicators" />
+    <DicItem Russian="Портфель, к которому применяются настройка максимального убытка" Foreign="Portfolio, which is retricted by a control of the maximum loss" />
+    <DicItem Russian="Максимальный убыток по портфелю, при достижении которого программа запрещает пользователю открывать новые позиции по этому портфелю. Не используется, если введенная величина равна 0" Foreign="The maximum loss at a portfolio. When achieved, the software doesn't allow user to open new positions at this portfolio. Not used if the entered parameter equals 0" />
+    <DicItem Russian="Вкл/выкл контроля за временем жизни заявки для указанного портфеля" Foreign="On/off control of the order's life time for the specified portfolio" />
+    <DicItem Russian="Объем заявки, подставляемый по умолчанию в форму ввода заявки" Foreign="Default order volume entered into orders input form" />
+    <DicItem Russian="Значение проскальзывания, подставяемое в форму ввода заявки" Foreign="Default value of slippage entered into an order form" />
+    <DicItem Russian="Величина тейк-профита. Тейк-профит не выставляется, если введенная величина равна 0" Foreign="Take-profit value. Take-profit not placed if the entered value equals 0" />
+    <DicItem Russian="Величина стоп-лосса, который выставляется для защиты позиции. Стоп-лосс не выставляется, если введенная величина равна 0" Foreign="Stop-loss value which is placed for protection of a position. Stop-loss not placed if the entered value equals 0" />
+    <DicItem Russian="Величина, на которую должна уйти цена инструмента в сторону увеличения прибыли для того, чтобы стоп-приказ, защищающий позицию, был передвинут. Стоп-приказ не передвигается, если введен 0" Foreign="The value at which the ticket's price shall increase profit in order that the stop-order protecting a position will have been moved. Stop-order doesn't move if 0 is entered" />
+    <DicItem Russian="Отступ от выбранной цены в минимальных шагах цены.\nЦена покупки = выбранная цена + ОТСТУП * МШЦ\nЦена продажи = выбранная цена - ОТСТУП * МШЦ" Foreign="Indent from the selected price counted in the number of minimum price steps.\nBuying price = selected price + INDENT * MinPriceStep\Nsale Price = selected price - INDENT * MinPriceStep" />
+    <DicItem Russian="Время в секундах, через которое активная заявка подлежит снятию. Параметр не используется, если его значение равно 0" Foreign="Time in seconds through which the active order is subject to removal. Parameter is not used if its value is equal to 0" />
+    <DicItem Russian="Цвет контура растущей свечи" Foreign="Color of a circuit of the growing candle" />
+    <DicItem Russian="Цвет контура падающей свечи" Foreign="Color of a circuit of the falling candle" />
+    <DicItem Russian="Цвет растущей свечи" Foreign="Color of the growing candle" />
+    <DicItem Russian="Цвет падающей свечи" Foreign="Color of the falling candle" />
+    <DicItem Russian="Цвет покупки" Foreign="Color of Buy" />
+    <DicItem Russian="Цвет продажи" Foreign="Color of Sell" />
+    <DicItem Russian="Видимость фигуры на графике" Foreign="Visibility of a figure on a graphics" />
+    <DicItem Russian="Цвет уровня с максимальным объемом" Foreign="Color of level with the maximum volume" />
+    <DicItem Russian="Цвет области стандартного отклонения объема" Foreign="Area color of a standard deviation of volume" />
+    <DicItem Russian="Цвет уровня с ожидаемой ценой" Foreign="Color of level with the expected price" />
+    <DicItem Russian="Количество последних свечей для расчета" Foreign="Quantity of the last candles for calculation" />
+    <DicItem Russian="Шаг уровня в количестве шагов цены" Foreign="Level step in number of the price steps" />
+    <DicItem Russian="С какой стороны графика показывать фигуру" Foreign="From what side of the diagram to show a figure" />
+    <DicItem Russian="Отображать значение значимых уровней" Foreign="Display value of significant levels" />
+    <DicItem Russian="Влияет ли отображение фигуры на автомасштаб по оси Y" Foreign="Whether displaying of a figure influences on autoscaling on Y axis" />
+    <DicItem Russian="Показывать информацию по уровню при наведении мыши" Foreign="To show the level information in case of mouse induction" />
+    <DicItem Russian="Возможность выделять уровни мышью" Foreign="Opportunity to select levels with a mouse" />
+    <DicItem Russian="Начало отсчета" Foreign="Zero reference datum" />
+    <DicItem Russian="Показывать начало отсчета периода в виде вертикальной линии" Foreign="Show period of a reference mark in the form of the vertical line" />
+    <DicItem Russian="Ширина очереди заявок в процентах от ширины графика" Foreign="Width of order's queue in percentage of diagram width" />
+    <DicItem Russian="С какой стороны графика показывать очередь заявок" Foreign="From what side of the diagram to show the order's queue" />
+    <DicItem Russian="Вид представления очереди заявок" Foreign="Type of representation of the order's queue" />
+    <DicItem Russian="Количество отображаемых уровней спроса и предложения (0 = все уровни)" Foreign="Amount of the displayed levels of demand and supply (0 = all levels)" />
+    <DicItem Russian="Отображать максимальный объем спроса и предложения" Foreign="Show the maximum volume of demand and supply" />
+    <DicItem Russian="Прозрачность очереди заявок в %" Foreign="Transparency of the order's queue in %" />
+    <DicItem Russian="Влияет ли отображение очереди заявок на автомасштаб по оси Y" Foreign="Whether displaying of the order's queue influences on autoscaling on a Y axis" />
+    <DicItem Russian="Увеличение длины линии тренда" Foreign="Increase in length of the trend line" />
+    <DicItem Russian="Уровни Фибоначчи" Foreign="Fibonacci's levels" />
+    <DicItem Russian="Разрешить изменять значения начального и конечного углов дуг" Foreign="Allow to change values of initial and final corners of arches" />
+    <DicItem Russian="Начальный угол дуг Фибоначчи" Foreign="Initial corner of Fibonacci's arches " />
+    <DicItem Russian="Конечный угол дуг Фибоначчи" Foreign="Final corner of Fibonacci's arches" />
+    <DicItem Russian="В случае использования проскальзывания для приказов MARKET на покупку программа выставит на рынок заявку по цене лучшего предложения плюс проскальзывание"  Foreign="In case of using slippage for the purchase MARKET orders, the software will place the order at the price of the best offer plus slippage" />
+    <DicItem Russian="В случае использования проскальзывания для приказов MARKET на продажу программа выставит на рынок заявку по цене лучшего спроса минус проскальзывание"  Foreign="In case of using slippage for the sale MARKET orders, the software will place the order at the price of the best offer minus slippage" />
+    <DicItem Russian="В случае использования проскальзывания для приказов STOP на продажу программа выставит на рынок заявку по цене STOP минус проскальзывание" Foreign="In case of using slippage for the sale STOP orders, the software will place the order at the price of the best offer minus slippage" />
+    <DicItem Russian="В случае использования проскальзывания для приказов STOP на покупку программа выставит на рынок заявку по цене STOP плюс проскальзывание" Foreign="In case of using slippage for the purchase STOP orders, the software will place the order at the price of the best offer plus slippage" />
+    <DicItem Russian="Все заявки" Foreign="All orders" />
+    <DicItem Russian="Все сделки" Foreign="All trades" />
+    <DicItem Russian="Все откр. позиции" Foreign="All open Positions" />
+    <DicItem Russian="Все закр. позиции" Foreign="All closed Positions" />
+    <DicItem Russian="Портфель по умолчанию:" Foreign="Portfolio by Default:" />
+    <DicItem Russian="Отображение объема в терминале:" Foreign="Display of volume in terminal:" />
+    <DicItem Russian="Отображение объема по умолчанию" Foreign="Display of volume by default" />
+    <DicItem Russian="Показывать сделки на их ценовом уровне" Foreign="Show transactions at their price level" />
+    <DicItem Russian="Отображать время начала свечи" Foreign="Show the time of candle's beginning" />
+    <DicItem Russian="Добавлять" Foreign="Add" />
+    <DicItem Russian="к объему в окне ввода заявки" Foreign="to volume in a window of order's input" />
+    <DicItem Russian="Заменять" Foreign="Replace" />
+    <DicItem Russian="Глобальная настройка отображения объема в терминале" Foreign="Global settings of viewing volume in terminal" />
+    <DicItem Russian="объем в окне ввода заявки" Foreign="volume in a window of order's input" />
+    <DicItem Russian="Проверять отклонение цены плюс/минус:" Foreign="Check a price deviation a plus/minus:" />
+    <DicItem Russian="Ограничение на отклонение цены заявки" Foreign="Restriction on order's price deviation" />
+    <DicItem Russian="По цене посл.сделки" Foreign="At the last deal price" />
+    <DicItem Russian="По лучшему биду/аску" Foreign="At the best bid/ask" />
+    <DicItem Russian="Защитить позицию..." Foreign="Protect position..." />
+    <DicItem Russian="Звуки" Foreign="Sounds" />
+    <DicItem Russian="ПОЗ" Foreign="POS" />
+    <DicItem Russian="ЕДП" Foreign="EDP" />
+    <DicItem Russian="ИИС" Foreign="IIS" />
+    <DicItem Russian="Параметры" Foreign="Options" />
+    <DicItem Russian="Значение" Foreign="Value" />
+    <DicItem Russian="Портфели" Foreign="Portfolios" />
+    <DicItem Russian="Брокерский" Foreign="Brokerage" />
+    <DicItem Russian="Котировочный" Foreign="Quotation" />
+    <DicItem Russian="Блокированый" Foreign="Blocked" />
+    <DicItem Russian="Блокирован" Foreign="Blocked" />
+    <DicItem Russian="Ограниченный (авто)" Foreign="Limited (auto)" />
+    <DicItem Russian="Изменить заголовок" Foreign="Change Title" />
+
+    <DicItem Russian="Вы должны выбрать тип стоп-заявки!" Foreign="You have to choose type of stop order!" />
+    <DicItem Russian="Вы должны сначала выбрать направление!" Foreign="You have to choose direction of stop order!" />
+    <DicItem Russian="Цена или шаг трейлинга не может быть пустыми, нулевыми или отрицательными!" Foreign="The Price or the Trail.(step) can not be empty, zero or negative!" />
+    <DicItem Russian="Будут выставлены связанные приказы:&#10;Стоп-лосс с ценой стоп " Foreign="Linked-orders will be to placed:&#10;Stop-loss with stop-price" />
+    <DicItem Russian="Будут выставлены связанные приказы:&#10; с ценой стоп " Foreign="Linked orders:&#10;Stop-Order with price " />
+    <DicItem Russian="Будет выставлен тейк-профит по инструменту " Foreign="Take-profit order will be to placed by instrument " />
+    <DicItem Russian="Будет выставлен тейк-профит с ценой " Foreign="Take-profit order will be to placed with price " />
+    <DicItem Russian="Будет выставлен cтоп-лосс с ценой стоп " Foreign="Stop-order will be to placed with stop-price " />
+    <DicItem Russian="Будет выставлен трейлинг-стоп по инструменту {0} с начальной трейл-ценой {1} и шагом трейлинга {2}.&#10;Продолжить?" 
+	Foreign="Trailing-Stop will be to placed by {0} with the initial Price {1} and Trail.(step) {2}.&#10;Continue?" />
+    <DicItem Russian="Будет выставлен cтоп-лосс по инструменту {0} с ценой стоп {1}.&#10;Продолжить?" 
+	Foreign="Stop-loss will be to placed by {0} with the Price {1}.&#10;Continue?" />
+    <DicItem Russian="Будет выставлен тейк-профит по инструменту {0} с ценой {1}.&#10;Продолжить?"
+	Foreign="Take-profite will be to placed by {0} with the Price {1}.&#10;Continue?" />
+    <DicItem Russian="Вы должны сначала выбрать субсчет!" Foreign="You should start by selecting a sub-account!" />
+    <DicItem Russian="Вы должны сначала выбрать инструмент!" Foreign="Please, select a Ticker!" />
+    <DicItem Russian="Нельзя совершать операции с инструментом {0} по субсчету {1}!" Foreign="It is not allowed to trade the ticker {0} on sub-account {1}!" />
+    <DicItem Russian="Вы должны выставить правильный объем!" Foreign="Please, set the correct Quantity!" />
+    <DicItem Russian="Сначала выберите субсчет!" Foreign="Please, select a sub-account!" />
+    <DicItem Russian="Выберите инструмент!" Foreign="Please select a Ticker!" />
+    <DicItem Russian="Цена не может быть пустой, нулевой или отрицательной!"  Foreign="The Price can not be empty, zero or negative!" />
+    <DicItem Russian="Проигнорировать эту ошибку и попытаться продолжить." Foreign="Ignore this error and try to carry on" />
+
+    <DicItem Russian="В случае использования авто-стопа стоп выставляется на величину позиции
+При изменении позиции старый приказ снимается, и вместо него выставляется новый приказ относительно средней цены открытой позиции
+При ликвидации позиции соответствующий стоп-приказ отменяется автоматически
+При перевороте позиции старый приказ снимается, а вместо него выставляется новый, с другой стороны рынка" Foreign="In the case of auto-stop, the STOP order is placed with total value of the position. 
+If there is a change in the position value, the old order is cancelled and the new order is placed with adjusted correlation to the average price of an open position. 
+In the case of position liquidation, the relevant stop order is cancelled automatically. 
+In the case of position reversal, the old order is cancelled, and new order is placed in the opposite direction." />
+
+    <DicItem Russian="В случае использования тейк-профита выставляется лимитированный приказ на величину позиции
+При изменении позиции старый приказ снимается, и вместо него выставляется новый приказ относительно средней цены открытой позиции
+При ликвидации позиции соответствующий приказ отменяется автоматически
+При перевороте позиции старый приказ снимается, а вместо него выставляется новый, с другой стороны рынка" Foreign="In case of take-profit, the LIMIT order is placed with the total value of position.  
+If there is a change in the position value, the old order is cancelled and the new order is placed with adjusted correlation to the average price of an open position. 
+In the case of position liquidation, the relevant limit order is cancelled automatically. 
+In the case of position reversal, the pending (old) order is cancelled, and new order is placed in the opposite direction." />
+
+
+    <DicItem Russian="Портфель, к которому применяются настройка максимального убытка" Foreign="Portfolio to which are applied setup of the maximum loss" />
+    <DicItem Russian="Инструмент, к которому применяются настройки риск-менеджмента" Foreign="Ticker, which is restricted by settings of a risk management" />
+    <DicItem Russian="Максимальный объем заявки, которую разрешено выводить на рынок. Не используется, если введенное значение равно 0" Foreign="The maximum volume of the order which is authorized for placing into the market. Not used if the entered value equals 0" />
+    <DicItem Russian="Максимальная длинная или короткая позиция, которую разрешено открывать. Не используется, если введенное значение равно 0" Foreign="The maximum long or short position which is authorized for opening. Not used if the entered value equals 0" />
+    <DicItem Russian="Отступ от выбранной цены в минимальных шагах цены.\nЦена покупки = выбранная цена + ОТСТУП * МШЦ\nЦена продажи = выбранная цена - ОТСТУП * МШЦ	Space from the chosen price in the minimum steps of the price. \n Purchase price = the chosen price + the SPACE * MSoP\n Selling price = the chosen price - the SPACE * MSoP" />
+    <DicItem Russian="Значение цены, на котором размещена данная линия" Foreign="Price value on which this line is placed" />
+    <DicItem Russian="Условие '{0}' выполнено для инструмента '{1}'!" Foreign="Condition '{0}' is fulfilled for this trading instrument {1}'!" />
+    <DicItem Russian="Не задано"  Foreign="Without value" />
+    <DicItem Russian="Не найден портфель [{0}]" Foreign="Not found the Portfel [{0}]" />
+    <DicItem Russian=": (Фильтр)" Foreign=": (Filter)" />
+    <DicItem Russian="(Фильтр)" Foreign="(Filter)" />
+    <DicItem Russian="Ошибка!" Foreign="Error!" />
+    <DicItem Russian="Слева" Foreign="Left" />
+    <DicItem Russian="Справа" Foreign="Right" />
+    <DicItem Russian="Объем уровня" Foreign="Volume of level" />
+    <DicItem Russian="Суммарный объем" Foreign="Accum. volume" />
+    <DicItem Russian=" по " Foreign=" By " />
+    <DicItem Russian=" с " Foreign=" from " />
+    <DicItem Russian=" на " Foreign=" to " />
+    <DicItem Russian="Скользящая средняя" Foreign="Moving Average" />
+    <DicItem Russian="Сдвиг вправо" Foreign="Right Shift" />
+    <DicItem Russian="Сдвиг ББ" Foreign="Shift BB" />
+    <DicItem Russian="Сдвиг вверх ББ" Foreign="Up Shift BB" />
+    <DicItem Russian="Сдвиг вверх %" Foreign="Top Shift %" />
+    <DicItem Russian="Уровень (поинт)" Foreign="Level (point)" />
+    <DicItem Russian="Проскальзывание" Foreign="Slippage" />
+    <DicItem Russian="Объем: изменения вступят в силу после перезагрузки терминала." Foreign="Amount: changes will be applied after reset of the terminal." />
+    <DicItem Russian="Внимание! Вы ввели цену, отклоняющуюся от текущей рыночной более, чем на " Foreign="Attention! You have entered the price deviating from current market more than on " />
+    <DicItem Russian="Невозможно проверить отклонение цены заявки, так как сделок по инструменту " Foreign="It is impossible to check an order price deviation as transactions on the ticker " />
+    <DicItem Russian=" не было." Foreign=" were not." />
+    <DicItem Russian="Выставить заявку по цене " Foreign="To expose order at the price " />
+    <DicItem Russian="Чтобы выставить заявку, отключите проверку в разделе Настройки - Риски" Foreign="To expose the order, turn off check in the section of Settings - Risks-Managements" />
+
+    <DicItem Russian="Поставлено" Foreign="Delivered" />
+    <DicItem Russian="Не задано" Foreign="N/A" />
+    <DicItem Russian="Поставка/расчеты" Foreign="Settlement/Delivery" />
+    <DicItem Russian="Дата расчетов или поставки" Foreign="Date of settlement or delivery" />
+    <DicItem Russian="Валюта счета" Foreign="Currency" />
+
+    <DicItem Russian="По биду - приказ КУПИТЬ по цене БИД плюс 1 шаг цены (лучший лимит-приказ)" Foreign="On BID - the order to BUY price BID plus 1 step of the price (the best limit order)" />
+    <DicItem Russian="По аску - приказ ПРОДАТЬ по цене АСК минус 1 шаг цены (лучший лимит-приказ)"  Foreign="On ASK - the order to SELL at ASK price minus 1 step of the price (the best limit order)" />
+    <DicItem Russian="По биду - приказ ПРОДАТЬ по цене БИД (перекрестный лимит-приказ)" Foreign="On BID - the order to SELL at BID price (a cross limit order)" />
+    <DicItem Russian="По аску - приказ КУПИТЬ по цене АСК (перекрестный лимит-приказ)" Foreign="On ASK - the order to BUY at ASK price (a cross limit order)" />
+    <DicItem Russian="При зажатой клавише CTRL - ОТМЕНА заявки с выбранной ценой" Foreign="In case of the clamped CTRL key - CANCELLATION of the order with the chosen price" />
+    <DicItem Russian="При зажатой клавише CTRL - приказ на ЗАКРЫТИЕ позиции по инструменту в портфеле" Foreign="In case of the clamped CTRL key - the order on position's CLOSING on the tool in a portfolio" />
+    <DicItem Russian="Информация о расширениях в данный момент недоступна&#13;&#10;Описание проблемы передано в окно &quot;Логи и события&quot;" Foreign="Presently information about extentions is not available &#13;&#10; The Description of problem has bin passed to window &quot; Logs and events &quot;" />
+
+	<!-- Jelly -->	
+	<DicItem Russian="Превышен интервал ожидания ответа от сервера" Foreign="Server timed out"  />
+	<DicItem Russian="Внутренняя ошибка" Foreign="Internal error"  />
+	<DicItem Russian="Доступ к торговой площадке '{0}' запрещен" Foreign="Exchange '{0}' access deny"  />
+	<DicItem Russian="Сервер закрыл соединение" Foreign="Connection closed by server" />
+	<DicItem Russian="Соединение закрыто пользователем" Foreign="Connection closed by user" />
+	<DicItem Russian="Ошибка соединения с сервером котировок: " Foreign="Connection failed: &#13;&#10;" />
+	<DicItem Russian="Невозможно подписаться на портфель '{0}'" Foreign="Portfolio '{0}' access deny" />
+	<!-- End Jelly -->	
+
+	<!-- Updater -->
+	<DicItem Russian="Обновление не может быть завершено.&#13;&#10;" Foreign="The update cannot be finished.&#13;&#10;"  />
+	<DicItem Russian="На сервере отсутствует информация о файлах обновления" Foreign="The server don't have information about files of update"  />
+	<DicItem Russian="Невозможно записать временные файлы обновления" Foreign="Cannot save temporary files"  />
+	<DicItem Russian="Для продолжения установки необходимо закрыть приложение '" Foreign="Please do close application for continue of update"  />
+	<DicItem Russian="Невозможно продолжить обновление, поскольку запущено приложение '" Foreign="Application is running. Cannot continue update"  />
+	<DicItem Russian="Неизвестная ошибка" Foreign="Unknow error"  />
+	<DicItem Russian="Невозможно скопировать файлы обновления" Foreign="Cannot copy files of update"  />
+	<!-- End Updater -->
+
+	<DicItem Russian="Объем последней сделки" Foreign="Volume of last deal"  />
+	<DicItem Russian="Цена последней сделки" Foreign="Last price of last deal"  />
+	<DicItem Russian="Цена закрытия предыдущей сессии" Foreign="Last price of previous session"  />
+	<DicItem Russian="Максимальная цена сделки за торговую сессию" Foreign="Max price of the session "  />
+	<DicItem Russian="Минимальная цена сделки за торговую сессию" Foreign="Min price of the session"  />
+	<DicItem Russian="Цена первой сделки в торговой сессии" Foreign="Price of the first deal by the session"  />
+	<DicItem Russian="Время котировки" Foreign="Time of last change"  />
+	<DicItem Russian="Статус портфеля" Foreign="Status of Portfolio"  />
+	<DicItem Russian="Комментарий трейдера" Foreign="Comment of trader"  />
+        <DicItem Russian="Величина стоимости позиции" Foreign="Total Value of Open Position" />
+        <DicItem Russian="Величина стоимости закр. позиции" Foreign="Total Value of Close Position" />
+        <DicItem Russian="Величина стоимости сделки" Foreign="Total Value of Trade" />
+        <DicItem Russian="Величина стоимости заявки" Foreign="Total Value of Order" />
+        <DicItem Russian="Цвет гистограммы" Foreign="Color of Histogram" />
+        <DicItem Russian="Цвет сигнальной" Foreign="Color of Signal-Line" />
+        <DicItem Russian="Видимость нулевой линии" Foreign="Show Zero-line" />
+        <DicItem Russian="Значение нулевой линии" Foreign="Value of Zero-line" />
+        <DicItem Russian="Цвет нулевой линии" Foreign="Color of Zero-Line" />
+        <DicItem Russian="Шаг горизонтального скроллинга (макс.20)" Foreign="Step of Horiz.Scroll (max.20)" />
+        <DicItem Russian="Разрешить свободный скроллинг по вертикали" Foreign="Easy Vert.Scroll" />
+        <DicItem Russian="Точка отсчета" Foreign="Start Point" />
+        <DicItem Russian="Вид стакана" Foreign="Type of OrderBook" />
+        <DicItem Russian="Вид 1" Foreign="Type 1" />
+        <DicItem Russian="Вид 2" Foreign="Type 2" />
+        <DicItem Russian="К-во Bid" Foreign="Qty Bid"  />
+        <DicItem Russian="К-во Offer" Foreign="Qty Offer"  />
+        <DicItem Russian="Количество Bid" Foreign="Qty Bid"  />
+        <DicItem Russian="Количество Offer" Foreign="Qty Offer"  />
+        <DicItem Russian="Сум.к-во" Foreign="Total Qty"  />
+        <DicItem Russian="Сум.к-во " Foreign="Total Qty "  />
+        <DicItem Russian="Сум.к-во Bids" Foreign="Total Qty of Bids"  />
+        <DicItem Russian="Сум.к-во Offers" Foreign="Total Qty of Offers"  />
+        <DicItem Russian="Суммарное количество Bids" Foreign="Total Qty of Bids"  />
+        <DicItem Russian="Суммарное количество Offers" Foreign="Total Qty of Offers"  />
+        <DicItem Russian="Толщина линии позиций" Foreign="Width of positions-line" />
+        <DicItem Russian="Толщина линии заявок" Foreign="Width of orders-line" />
+        <DicItem Russian="Толщина линии сделок" Foreign="Width of trades-line" />
+
+        <DicItem Russian="Начало дня" Foreign="Start of Day" />
+        <DicItem Russian="Дата начала расчета" Foreign="Start Data of Calculation"  />
+        <DicItem Russian="Дата" Foreign="Date"  />
+        <DicItem Russian="От какой точки отсчета начинать расчет" Foreign="Start Point of Calculation"  />
+        <DicItem Russian="Автозамена при вводе запятой на точку" Foreign="AutoCorrect comma-symbol on the point-symbol"  />
+        <DicItem Russian="Указанной даты нет в загруженных данных графика. Профиль рынка будет строиться и обновляться только по имеющимся данным" Foreign=" "  />
+        <DicItem Russian="Рабочий стол" Foreign="Worktable"  />
+        <DicItem Russian="Рабочие столы" Foreign="Worktables"  />
+        <DicItem Russian="Добавить рабочий стол" Foreign="Insert Worktable"  />
+        <DicItem Russian="Удалить рабочий стол" Foreign="Delete Worktable"  />
+        <DicItem Russian="Переименовать рабочий стол" Foreign="Rename Worktable"  />
+        <DicItem Russian="Канал" Foreign="Chanel"  />
+        <DicItem Russian="Лучшие цены спреда" Foreign="The best price of spred"  />
+        <DicItem Russian="Цены спреда" Foreign="Prices of spred"  />
+        <DicItem Russian="Свернуть" Foreign="Minimize"  />
+        <DicItem Russian="Свернуть в окно" Foreign="Resize to window"  />
+        <DicItem Russian="Закрыть" Foreign="Close"  />
+        <DicItem Russian="На весь экран" Foreign="Full screen"  />
+        <DicItem Russian="Развернуть" Foreign="Maximize"  />
+        <DicItem Russian="Вернуть в докинг" Foreign="Restore to docking"  />
+        <DicItem Russian="Автоскрыть" Foreign="Auto Hide"  />
+
+        <DicItem Russian="Уровни High/Low" Foreign="High/Low Levels"  />
+        <DicItem Russian="Цвет High" Foreign="Color of High-level"  />
+        <DicItem Russian="Цвет Low" Foreign="Color of Low-level"  />
+        <DicItem Russian="Цвет текста" Foreign="Color of text"  />
+        <DicItem Russian="Отрисовка" Foreign="Drawing"  />
+        <DicItem Russian="От какой точки рисовать уровни" Foreign="Start point"  />
+        <DicItem Russian="От значения High/Low" Foreign="High/Low point"  />
+        <DicItem Russian="С начала дня/периода" Foreign="Start of day/period"  />
+        <DicItem Russian="По всему графику" Foreign="Fullchart"  />
+        <DicItem Russian="Отступ от уровней" Foreign="Indent from levels"  />
+        <DicItem Russian="Отступ от значений уровней (в шагах цены)" Foreign="Indent from level-value (by step-price)"  />
+        <DicItem Russian="Уровни за период" Foreign="Period-Levels"  />
+        <DicItem Russian="Показывать уровни за период с даты" Foreign="Show period-levels from date"  />
+        <DicItem Russian="Период с ..." Foreign="Begin date..."  />
+        <DicItem Russian="Дата начала расчета" Foreign="Begin calculate date"  />
+        <DicItem Russian="Подписи" Foreign="Labels" />
+        <DicItem Russian="Сумма НКД" Foreign="Value of ACI" />
+	<DicItem Russian="Введенное имя не может быть использовано" Foreign="The entered name can't be used" />
+	<DicItem Russian="Показывать одноименные индикаторы в одном окне" Foreign="To show the same name's indicators in one window" />
+	<DicItem Russian="Поиск невозможен без отображения хотя бы одной из колонок - Тикер, Крат. наименование, Инструмент" Foreign="Search is impossible without display at least of one of the columns - Instrument, Symbol, ShortName" />
+	<DicItem Russian="Поиск невозможен без отображения колонки Портфель" Foreign="Search is impossible without display of the column Portfolio" />
+	<DicItem Russian="Показывать информацию по свече при наведении мыши" Foreign="To show information on a candle when targeting a mouse" />
+	<DicItem Russian="Открыть ленту сделок" Foreign="Open Time'n'Sales" />
+	<DicItem Russian="Значение поля 'Проск.' не кратно шагу цены ({0}).\r\n Проверьте введенное значение!" Foreign="Value of the field 'Slippage' not multiply to a step of the price ({0}).\r\n Check the entered value!" />
+	<DicItem Russian="Номер сделки, которую отменила текущая сделка" Foreign="Number of the transaction which was cancelled by the current transaction" />
+	<DicItem Russian="Выбранный портфель будет подставляться в окно ввода заявки по умолчанию" Foreign="Marked portfolio will be choosen in an input window by default" />
+	<DicItem Russian="Наименование инструмента, отображаемое в заголовках окон" Foreign="Name of the tool displayed in headings of windows" />
+	<DicItem Russian="Какой объем подставлять в форму ввода заявки" Foreign="What volume do you want to input in the order?" />
+	<DicItem Russian="Нельзя удалить единственный рабочий стол" Foreign="Cannot delete the last worktable"  />
+	<DicItem Russian="Достигнуто максимальное количество рабочих столов" Foreign="Maxumum count of worktables"  />
+	<DicItem Russian="Введите значение" Foreign="Enter value"  />
+	<DicItem Russian="Вид стакана по умолчанию:" Foreign="Default orderbook type:"  />
+	<DicItem Russian="Тип ордера" Foreign="Type of order"  />
+	<DicItem Russian="Панель поиска" Foreign="Search panel"  />
+	<DicItem Russian="Уровень достаточности" Foreign="Margin requirement level"  />
+	<DicItem Russian="Поле 'Цена'" Foreign="'Price' entry box"  />
+	<DicItem Russian="Поле 'Кол-во'" Foreign="'Qty' entry box"  />
+	<DicItem Russian="Положение курсора при открытии окна" Foreign="Position of cursor on showing this window:"  />
+	<DicItem Russian="Аукцион закрытия" Foreign="Auction of close"  />
+	<DicItem Russian="Аукцион открытия" Foreign="Auction of open"  />
+	<DicItem Russian="Цена аукциона закрытия" Foreign="Price of auction of close"  />
+	<DicItem Russian="Цена аукциона открытия" Foreign="Price of auction of open"  />
+	<DicItem Russian="Цена аукциона" Foreign="Price of auction"  />
+	<DicItem Russian="Выделять цену аукциона открытия" Foreign="Lighting for Auction Price"  />
+	<DicItem Russian="Показывать 'PnL' по позициям в единицах шага цены" Foreign="Showing 'PnL' of Open Positions on points of step price"  />
+	<DicItem Russian="Не подключено" Foreign="Not connected"  />
+	<DicItem Russian="Своя позиция" Foreign="My position"  />
+	<DicItem Russian="Своя позиция (шт.)" Foreign="My position (pcs.)"  />
+	<DicItem Russian="Своя средняя цена" Foreign="My avg.price"  />
+	<DicItem Russian="Своя прибыль" Foreign="My PnL"  />
+	<DicItem Russian="Своя прибыль в %%" Foreign="My PnL, %%"  />
+	<DicItem Russian="Позиция (шт.)" Foreign="Position (pcs.)"  />
+	<DicItem Russian="Средняя цена" Foreign="Avg.price"  />
+	<DicItem Russian="Попытка соединения {0}..." Foreign="Try connection {0}..."  />
+	<DicItem Russian=", пункты" Foreign=", points" />
+	<DicItem Russian=", валюта" Foreign=", currency" />
+	<DicItem Russian="Средства, доступные для торговли" Foreign="Available Funds for trading" />
+	<DicItem Russian="Заменить фьючерсы" Foreign="Replace futures" />
+	<DicItem Russian="Фьючерсы MOEX не найдены" Foreign="Not any futures MOEX founds" />
+	<DicItem Russian="Добавлено:   " Foreign="Added:    " />
+	<DicItem Russian="Удалено:        " Foreign="Deleted:   " />
+	<DicItem Russian="Пропущено: " Foreign="Skiped:    " />
+	<DicItem Russian="Заменить фьючерсы MOEX" Foreign="Replace futures MOEX" />
+	<DicItem Russian="Все фьючерсы" Foreign="All futures" />
+	<DicItem Russian="Только прошедших экспираций" Foreign="Only previous expiration" />
+	<DicItem Russian="Добавить новый" Foreign="Add new" />
+	<DicItem Russian="Добавить новый и удалить старый" Foreign="Add new and delete old" />
+	<DicItem Russian="Ввод значения" Foreign="Value Entry" />
+	<DicItem Russian="Выбор фьючерсов" Foreign="Select futures" />
+	<DicItem Russian="Действие при замене" Foreign="Action for change" />
+	<DicItem Russian="" Foreign="" />
+
+	<DicItem Russian="Срок исполнения срочных контрактов/погашения облигаций" Foreign=" "  />
+	<DicItem Russian="Доходность к погашению" Foreign=" "  />
+	<DicItem Russian="Номинал (для облигаций)" Foreign=" "  />
+	<DicItem Russian="Величина ближайшего купона" Foreign=" "  />
+	<DicItem Russian="Накопленный купонный доход" Foreign=" "  />
+	<DicItem Russian="Статус инструмента (торгуемый/неторгуемый)" Foreign=" "  />
+	<DicItem Russian="Изменение цены в %" Foreign=" "  />
+	<DicItem Russian="Изменение цены в пунктах (рублях, $)" Foreign=" "  />
+	<DicItem Russian="Начальное ГО на продажу" Foreign=" "  />
+	<DicItem Russian="Начальное ГО на покупку" Foreign=" "  />
+	<DicItem Russian="Название торговой плащадки" Foreign=" "  />
+	<DicItem Russian="Суммарный объем предложения в стакане" Foreign=" "  />
+	<DicItem Russian="Суммарный объем спроса в стакане" Foreign=" "  />
+	<DicItem Russian="Объем открытых позиций для срочных контрактов" Foreign=" "  />
+	<DicItem Russian="Объем торгов в шт. (лотах)" Foreign=" "  />
+	<DicItem Russian="Оборот торгов в рублях ($)" Foreign=" "  />
+	<DicItem Russian="Объем лучшей заявки на продажу" Foreign=" "  />
+	<DicItem Russian="Лучшая цена на продажу" Foreign=" "  />
+	<DicItem Russian="Объем лучшей заявки на покупку" Foreign=" "  />
+	<DicItem Russian="Лучшая цена на покупку" Foreign=" "  />
+	<DicItem Russian="Краткое наименование инструмента" Foreign=" "  />
+	<DicItem Russian="Тикер инструмента" Foreign=" "  />
+	<DicItem Russian="Торговый инструмент" Foreign=" "  />
+	<DicItem Russian="Вариационная маржа. Транслируется биржей" Foreign=" "  />
+
+
+
+</Items>
+</LangInfo>
