@@ -5,4 +5,10 @@
         <WinButton name="Кнопка" locator="./*[@ClassName='Button' and @Name='#{текст}']"/>
         <WinTextBox name="Табло" locator="./*[@AutomationId='tb1']"/>
     </Page>
+    <Page name="Соединение" locator="/*[@AutomationId='frmDataLogin' and @Name='Соединение']">
+        <WinTextBox name="Пользователь" locator="./*[@AutomationId='txtUsername']"/>
+        <WinTextBox name="Пароль" locator="./*[@AutomationId='txtPassword']"/>
+        <WinTextBox name="Сервер" locator="./*[@AutomationId='txtServer' and @Name='#{текст}']"/>
+        <WinButton name="OK" locator="./*[@AutomationId='cmdOK']"/>
+    </Page>
 </Pages>
